@@ -1,0 +1,30 @@
+-.-大众常用是18.06lede的所以你直接无脑点击编译就行插件已经基于本人测试完毕直接使用！不想用的直接在seed删除
+比如说设备文件下出现、CONFIG_PACKAGE_luci-app-accesscontrol=y那么说明这是你正在装的插件
+相反要删除的向这种、# CONFIG_PACKAGE_luci-app-accesscontrol is not set这个就说明你不需要它的
+你要添加的就是这种CONFIG_PACKAGE_xxxxxxx=y    x代表你的插件名字
+
+SSH里面y是勾选☑️n是取消。空格也是确定但是空格键是内核和设备才需要它，说明都在ss链接说明里面。
+
+现阶段仓库5个源码
+X86_64都可以编译成功，固件都带了自动更新功能
+编译不了的就去6.1选取编译
+
+
+正在测试rk3568光影猫
+现阶段天灵5.1、可以正常编译
+现阶段大雕6.6正在测试天假模块及其驱动
+
+
+
+CONFIG_PACKAGE_luci-theme-atmaterial_new=y
+CONFIG_PACKAGE_luci-theme-edge=y
+CONFIG_PACKAGE_luci-theme-ifit=y
+CONFIG_PACKAGE_luci-theme-infinityfreedom=y暗黑主题
+CONFIG_PACKAGE_luci-theme-material=y
+CONFIG_PACKAGE_luci-theme-mcat=y
+CONFIG_PACKAGE_luci-theme-neobird=y
+CONFIG_PACKAGE_luci-theme-netgear=y
+CONFIG_PACKAGE_luci-theme-rosy=y
+CONFIG_PACKAGE_luci-theme-tomato=y
+
+
