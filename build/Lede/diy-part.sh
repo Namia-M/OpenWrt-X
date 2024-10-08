@@ -123,3 +123,25 @@ cat >>$DELETE <<-EOF
 EOF
 
 # ----------------------------------------------------------------------------------------------------------------------------------
+# 测试PCIE
+rm -rf package/wwan/app/luci-app-pcimodem
+rm -rf package/wwan/driver/quectel_MHI
+svn export https://github.com/Siriling/5G-Modem-Support/trunk/luci-app-pcimodem package/wwan/app/luci-app-pcimodem
+svn export https://github.com/Siriling/5G-Modem-Support/trunk/quectel_MHI package/wwan/driver/quectel_MHI
+
+# 添加MT7921系列和AW7916网卡支持
+rm -rf package/libs/libnl-tiny
+rm -rf package/kernel/mac80211
+rm -rf package/kernel/mt76
+rm -rf package/network/services/hostapd
+svn export https://github.com/openwrt/openwrt/trunk/package/libs/libnl-tiny package/libs/libnl-tiny
+svn export https://github.com/openwrt/openwrt/trunk/package/kernel/mac80211 package/kernel/mac80211
+svn export https://github.com/DHDAXCW/lede-rockchip/trunk/package/kernel/mt76 package/kernel/mt76
+svn export https://github.com/openwrt/openwrt/trunk/package/network/services/hostapd package/network/services/hostapd
+
+# Fix mt76 wireless driver
+pushd package/kernel/mt76
+sed -i '/mt7662u_rom_patch.bin/a\\techo mt76-usb disable_usb_sg=1 > $\(1\)\/etc\/modules.d\/mt76-usb' Makefile
+popd
+
+# 
