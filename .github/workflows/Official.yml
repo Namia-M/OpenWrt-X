@@ -32,7 +32,7 @@ on:
         options:
           - '1907-phicomm-k3'
           - 'aarch64'
-          - photonicatWRT'
+          - 'photonicatWRT'
           - 'phicomm_k3'
           - 'x86_64'
       CPU_SELECTION:
