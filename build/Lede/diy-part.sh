@@ -123,12 +123,6 @@ cat >>$DELETE <<-EOF
 EOF
 
 # ----------------------------------------------------------------------------------------------------------------------------------
-# 测试PCIE
-rm -rf package/wwan/app/luci-app-pcimodem
-rm -rf package/wwan/driver/quectel_MHI
-svn export https://github.com/Siriling/5G-Modem-Support/trunk/luci-app-pcimodem package/wwan/app/luci-app-pcimodem
-svn export https://github.com/Siriling/5G-Modem-Support/trunk/quectel_MHI package/wwan/driver/quectel_MHI
-
 # 添加MT7921系列和AW7916网卡支持
 rm -rf package/libs/libnl-tiny
 rm -rf package/kernel/mac80211
