@@ -3,6 +3,22 @@ CONFIG_TARGET_rockchip_armv8=y
 CONFIG_TARGET_rockchip_armv8_DEVICE_ariaboard_photonicat=y
 
 
+CONFIG_PACKAGE_kmod-cfg80211=y
+CONFIG_PACKAGE_kmod-iwlwifi=y
+CONFIG_PACKAGE_kmod-mac80211=y
+CONFIG_PACKAGE_kmod-mac80211-hwsim=y
+CONFIG_PACKAGE_kmod-mt76-connac=y
+CONFIG_PACKAGE_kmod-mt76-core=y
+CONFIG_PACKAGE_kmod-mt7921-common=y
+CONFIG_PACKAGE_kmod-mt7921-firmware=y
+CONFIG_PACKAGE_kmod-mt7921e=y
+CONFIG_PACKAGE_kmod-mt7921s=y
+CONFIG_PACKAGE_kmod-mt7921u=y
+CONFIG_PACKAGE_kmod-mt7922-firmware=y
+CONFIG_PACKAGE_kmod-mwifiex-pcie=y
+CONFIG_PACKAGE_kmod-mwifiex-sdio=y
+
+
 CONFIG_PACKAGE_mt7601u-firmware=y
 CONFIG_PACKAGE_mt7921bt-firmware=y
 CONFIG_PACKAGE_mt7922bt-firmware=y
