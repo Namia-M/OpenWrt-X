@@ -26,12 +26,10 @@
 ### 💕💕文化有限正在学习中💕💕
 - ================================================================
 - [`必看项！！！💕`](https://github.com/Namia-A/OpenWrt-X/blob/main/backups/%E5%B7%B2%E7%BC%96%E8%AF%91%E8%AF%B4%E6%98%8E/txt)
-- 第一点、禁止6.1-6.6内核安装luci-app-netspeedtest!!!!!!!会报错，原因是分支问题，我没有处理
-- 第二点、ram架构rk3568光影猫无法使用wifil可以自己去测试，如果需要编译Rockchip请到- [`OpenWrt-X — Rockchip！！！💕`](https://github.com/Namia-Q/OpenWrt-X-RK) 
-- 第三点、X86_64固件本人尽量用最新master或者23.05分支，用6.1和6.6的内核来结合编译编译出来的都可以使用自行U盘或者PE安装。
-- 第四点、主分支就是默认提示的，但是不包括23.05或者22.21.19.18.或者其他......会出现6.6的内核,但是会出现在编译插件安装过程中会莫名缺失你的seed文件里面所标记的设备配置文件，原因是其中个别插件带的依赖和你编译得插件或者其他插件有冲突他会消失。
 - 
-- 我是一个没有感情的虚线-.-！【正在测试lede】源码设备光影猫，Rockchip请到- [`OpenWrt-X — Rockchip！！！💕`](https://github.com/Namia-Q/OpenWrt-X-RK) 💕!
+  禁止6.1-6.6内核安装luci-app-netspeedtest!!!!!!!会报错，原因是分支问题，我没有处理、ram架构rk3568光影猫无法使用wifil可以自己去测试，如果需要编译Rockchip请到- [`OpenWrt-X — Rockchip！！！💕`](https://github.com/Namia-Q/OpenWrt-X-RK) ，X86_64固件本人尽量用最新master或者23.05分支，用6.1和6.6的内核来结合编译编译出来的都可以使用自行U盘或者PE安装。，主分支就是默认提示的，但是不包括23.05或者22.21.19.18.或者其他......会出现6.6的内核,但是会出现在编译插件安装过程中会莫名缺失你的seed文件里面所标记的设备配置文件，原因是其中个别插件带的依赖和你编译得插件或者其他插件有冲突他会消失。
+- 设备光影猫，请到Rockchip- [`OpenWrt-X — Rockchip！！！💕`](https://github.com/Namia-Q/OpenWrt-X-RK) 💕!主要对应Rockchip固件编译
+- 
              总插件N个，我装插件安装的数量基于x86有【54个】未安装【N个】
              特例-不是很推荐xwrt主分支此分支同步的是官方主分支你可以尝试其他xwrt分支！
 
