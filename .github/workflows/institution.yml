@@ -62,7 +62,7 @@ jobs:
       if: env.REPO_TOKEN
       run: |
         cd $GITHUB_WORKSPACE
-        git clone -b main https://github.com/Namia-Q/OpenWrt-X shangyou
+        git clone -b main https://github.com/Namia-M/OpenWrt-X shangyou
         git clone -b main https://user:${REPO_TOKEN}@github.com/${{github.repository}} repogx
         if [[ -d "repogx/build/${{ inputs.establish_name }}" ]]; then
           echo "${{ inputs.establish_name }}已存在，无法继续创建"
