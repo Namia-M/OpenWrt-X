@@ -12,8 +12,8 @@
 
 
 ## 项目说明 [![](https://img.shields.io/badge/-项目基本介绍-FFFFFF.svg)](#项目说明-)
-- 固件构成： [![P3TERX](https://img.shields.io/badge/OpenWrt-P3TERX-blueviolet.svg?style=flat&logo=appveyor)](https://github.com/P3TERX/Actions-OpenWrt) [![281677160](https://img.shields.io/badge/OpenWrt-common-blueviolet.svg?style=flat&logo=appveyor)](https://github.com/281677160/common) 
 - 项目使用 Github Actions 拉取[![Lean](https://img.shields.io/badge/Lede-OpenWrt-ff69b4.svg?style=flat&logo=appveyor)](https://github.com/coolsnowwolf/lede) [![Immortalwrt](https://img.shields.io/badge/immortalwrt-OpenWrt-blueviolet.svg?style=flat&logo=appveyor)](https://github.com/immortalwrt/immortalwrt) [![Lienol](https://img.shields.io/badge/Lienol-OpenWrt-orange.svg?style=flat&logo=appveyor)](https://github.com/Lienol/openwrt) [![Official](https://img.shields.io/badge/Official-OpenWrt-32C955.svg?style=flat&logo=appveyor)](https://github.com/openwrt/openwrt) [![Xwrt](https://img.shields.io/badge/Xwrt-OpenWrt-32C955.svg?style=flat&logo=appveyor)](https://github.com/x-wrt/x-wrt)  的 Openwrt 源码仓库进行云编译
+- 固件构成： [![P3TERX](https://img.shields.io/badge/OpenWrt-P3TERX-blueviolet.svg?style=flat&logo=appveyor)](https://github.com/P3TERX/Actions-OpenWrt) [![281677160](https://img.shields.io/badge/OpenWrt-common-blueviolet.svg?style=flat&logo=appveyor)](https://github.com/281677160/common) 
 - 固件默认管理地址：`192.168.5.1` 默认用户：`root` 默认密码：`【空】`
 - 暂时提供适配于Rockchip个别平台、光影猫photonicat以及 X86 平台设备的 OpenWrt 固件
 - 项目编译的固件插件为最新版本，最新版插件可能有 BUG，如果之前使用稳定则无需追新
@@ -23,25 +23,20 @@
 
 ## 固件特色 [![](https://img.shields.io/badge/-本项目固件特色-FFFFFF.svg)](#固件特色-)
 1. 固件每天定时自动编译，以确保获得最新体验
-2. 集成部分常用有线、无线、3G / 4G 网卡驱动
-3. 集成中文版 netdata 实时监控插件，小白也能轻松看懂系统概况
-4. 集成 iStore 应用商店，可根据自己需求自由安装所需插件
-5. 集成 Docker 服务，可在 OpenWrt 内自由部署 Docker 应用
-6. 集成应用过滤插件，支持游戏、视频、聊天、下载等 APP 过滤
-7. 集成在线用户插件，可查看所有在线用户 IP 地址与实时速率等
-8. ARMv8 系列固件内置晶晨宝盒，支持在线更新固件及内核等
-
+2. x86集成部分常用有线、无线、3G / 4G 网卡驱动
+3. 光影猫photonicat 正在测试中
+4. 集成中文版 netdata 实时监控插件，小白也能轻松看懂系统概况
+5. 集成 iStore 应用商店，可根据自己需求自由安装所需插件
+6. 集成 Docker 服务，可在 OpenWrt 内自由部署 Docker 应用
+7. 集成应用过滤插件，支持游戏、视频、聊天、下载等 APP 过滤
+8. 集成在线用户插件，可查看所有在线用户 IP 地址与实时速率等
+9. 支持在线更新固件
 
 ## 固件下载 [![](https://img.shields.io/badge/-编译状态及下载链接-FFFFFF.svg)](#固件下载-)
-点击下表中 [![](https://img.shields.io/badge/下载-链接-blueviolet.svg?style=flat&logo=hack-the-box)](https://github.com/haiibo/OpenWrt/releases) 即可跳转到该设备固件下载页面
+点击下表中 [![](https://img.shields.io/badge/下载-链接-blueviolet.svg?style=flat&logo=hack-the-box)](https://github.com/Namia-M/OpenWrt-X/releases) 即可跳转到该设备固件下载页面
 | 平台+设备名称 | 固件编译状态 | 配置文件 | 固件下载 |
 | :-------------: | :-------------: | :-------------: | :-------------: |
-| [![](https://img.shields.io/badge/OpenWrt-X86_64位-32C955.svg?logo=openwrt)](https://github.com/haiibo/OpenWrt/blob/main/.github/workflows/X86_64-OpenWrt.yml) | [![](https://github.com/haiibo/OpenWrt/actions/workflows/X86_64-OpenWrt.yml/badge.svg)](https://github.com/haiibo/OpenWrt/actions/workflows/X86_64-OpenWrt.yml) | [![](https://img.shields.io/badge/编译-配置-orange.svg?logo=apache-spark)](https://github.com/haiibo/OpenWrt/blob/main/configs/x86_64.config) | [![](https://img.shields.io/badge/下载-链接-blueviolet.svg?logo=hack-the-box)](https://github.com/haiibo/OpenWrt/releases/tag/X86_64) |
-| [![](https://img.shields.io/badge/OpenWrt-ARMv8_Mini-32C955.svg?logo=openwrt)](https://github.com/haiibo/OpenWrt/blob/main/.github/workflows/ARMv8-Mini-OpenWrt.yml) | [![](https://github.com/haiibo/OpenWrt/actions/workflows/ARMv8-Mini-OpenWrt.yml/badge.svg)](https://github.com/haiibo/OpenWrt/actions/workflows/ARMv8-Mini-OpenWrt.yml) | [![](https://img.shields.io/badge/编译-配置-orange.svg?logo=apache-spark)](https://github.com/haiibo/OpenWrt/blob/main/configs/armv8-mini.config) | [![](https://img.shields.io/badge/下载-链接-blueviolet.svg?logo=hack-the-box)](https://github.com/haiibo/OpenWrt/releases/tag/ARMv8_MINI) |
-| [![](https://img.shields.io/badge/OpenWrt-ARMv8_Plus-32C955.svg?logo=openwrt)](https://github.com/haiibo/OpenWrt/blob/main/.github/workflows/ARMv8-Plus-OpenWrt.yml) | [![](https://github.com/haiibo/OpenWrt/actions/workflows/ARMv8-Plus-OpenWrt.yml/badge.svg)](https://github.com/haiibo/OpenWrt/actions/workflows/ARMv8-Plus-OpenWrt.yml) | [![](https://img.shields.io/badge/编译-配置-orange.svg?logo=apache-spark)](https://github.com/haiibo/OpenWrt/blob/main/configs/armv8-plus.config) | [![](https://img.shields.io/badge/下载-链接-blueviolet.svg?logo=hack-the-box)](https://github.com/haiibo/OpenWrt/releases/tag/ARMv8_PLUS) |
-| [![](https://img.shields.io/badge/OpenWrt-Rockchip_平台-32C955.svg?logo=openwrt)](https://github.com/haiibo/OpenWrt/blob/main/.github/workflows/Rockchip-OpenWrt.yml) | [![](https://github.com/haiibo/OpenWrt/actions/workflows/Rockchip-OpenWrt.yml/badge.svg)](https://github.com/haiibo/OpenWrt/actions/workflows/Rockchip-OpenWrt.yml) | [![](https://img.shields.io/badge/编译-配置-orange.svg?logo=apache-spark)](https://github.com/haiibo/OpenWrt/blob/main/configs/rockchip.config) | [![](https://img.shields.io/badge/下载-链接-blueviolet.svg?logo=hack-the-box)](https://github.com/haiibo/OpenWrt/releases/tag/Rockchip) |
-| [![](https://img.shields.io/badge/OpenWrt-树莓派_4B-32C955.svg?logo=openwrt)](https://github.com/haiibo/OpenWrt/blob/main/.github/workflows/RaspberryPi4-OpenWrt.yml) | [![](https://github.com/haiibo/OpenWrt/actions/workflows/RaspberryPi4-OpenWrt.yml/badge.svg)](https://github.com/haiibo/OpenWrt/actions/workflows/RaspberryPi4-OpenWrt.yml) | [![](https://img.shields.io/badge/编译-配置-orange.svg?logo=apache-spark)](https://github.com/haiibo/OpenWrt/blob/main/configs/rpi4.config) | [![](https://img.shields.io/badge/下载-链接-blueviolet.svg?logo=hack-the-box)](https://github.com/haiibo/OpenWrt/releases/tag/RaspberryPi4) |
-| [![](https://img.shields.io/badge/OpenWrt-树莓派_3B/3B+-32C955.svg?logo=openwrt)](https://github.com/haiibo/OpenWrt/blob/main/.github/workflows/RaspberryPi3-OpenWrt.yml) | [![](https://github.com/haiibo/OpenWrt/actions/workflows/RaspberryPi3-OpenWrt.yml/badge.svg)](https://github.com/haiibo/OpenWrt/actions/workflows/RaspberryPi3-OpenWrt.yml) | [![](https://img.shields.io/badge/编译-配置-orange.svg?logo=apache-spark)](https://github.com/haiibo/OpenWrt/blob/main/configs/rpi3.config) | [![](https://img.shields.io/badge/下载-链接-blueviolet.svg?logo=hack-the-box)](https://github.com/haiibo/OpenWrt/releases/tag/RaspberryPi3) |
+| [![](https://img.shields.io/badge/OpenWrt-Rockchip_平台-32C955.svg?logo=openwrt)](https://github.com/Namia-M/OpenWrt-X/blob/main/.github/workflows/Rockchip-OpenWrt.yml) | [![](https://github.com/Namia-M/OpenWrt-X/actions/workflows/Rockchip-OpenWrt.yml/badge.svg)](https://github.com/Namia-M/OpenWrt-X/actions/workflows/Rockchip-OpenWrt.yml) | [![](https://img.shields.io/badge/编译-配置-orange.svg?logo=apache-spark)](https://github.com/Namia-M/OpenWrt-X/blob/main/configs/rockchip.config) | [![](https://img.shields.io/badge/下载-链接-blueviolet.svg?logo=hack-the-box)](https://github.com/Namia-M/OpenWrt-X/releases/tag/Rockchip) |
 
 
 ## 近期更新 [![](https://img.shields.io/badge/-近期固件更新-FFFFFF.svg)](#近期更新-)
