@@ -12,7 +12,7 @@
 
 
 ## 项目说明 [![](https://img.shields.io/badge/-项目基本介绍-FFFFFF.svg)](#项目说明-)
-- 固件构成： [![P3TERX](https://img.shields.io/badge/OpenWrt-P3TERX-blueviolet.svg?style=flat&logo=appveyor)](https://github.com/P3TERX/Actions-OpenWrt) [![281677160](https://img.shields.io/281677160/common-Flippy-orange.svg?style=flat&logo=appveyor)](https://github.com/281677160/common) 
+- 固件构成： [![P3TERX](https://img.shields.io/badge/OpenWrt-P3TERX-blueviolet.svg?style=flat&logo=appveyor)](https://github.com/P3TERX/Actions-OpenWrt) [![281677160](https://img.shields.io/common-Flippy-orange.svg?style=flat&logo=appveyor)](https://github.com/281677160/common) 
 - 项目使用 Github Actions 拉取[![Lean](https://img.shields.io/badge/Lede-OpenWrt-ff69b4.svg?style=flat&logo=appveyor)](https://github.com/coolsnowwolf/lede) [![Immortalwrt](https://img.shields.io/badge/immortalwrt-OpenWrt-blueviolet.svg?style=flat&logo=appveyor)](https://github.com/immortalwrt/immortalwrt) [![Lienol](https://img.shields.io/badge/Lienol-OpenWrt-orange.svg?style=flat&logo=appveyor)](https://github.com/Lienol/openwrt) [![Official](https://img.shields.io/badge/Official-OpenWrt-32C955.svg?style=flat&logo=appveyor)](https://github.com/openwrt/openwrt) [![Xwrt](https://img.shields.io/badge/Xwrt-OpenWrt-32C955.svg?style=flat&logo=appveyor)](https://github.com/x-wrt/x-wrt)  的 Openwrt 源码仓库进行云编译
 - 固件默认管理地址：`192.168.5.1` 默认用户：`root` 默认密码：`【空】`
 - 暂时提供适配于Rockchip个别平台、光影猫photonicat以及 X86 平台设备的 OpenWrt 固件
