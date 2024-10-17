@@ -1,6 +1,5 @@
 <div align="center">
-<img width="768" src="https://cdn.jsdelivr.net/gh/Namia-M/OpenWrt-X/backups/实例
-/1img.png"/>
+<img width="768" src="https://cdn.jsdelivr.net/gh/backups/实例/openwrt.png"/>
 <h1>OpenWrt-X — 固件云编译</h1>
 
 <img src="https://img.shields.io/github/downloads/Namia-M/OpenWrt-X/total.svg?style=for-the-badge&color=32C955"/>
