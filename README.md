@@ -44,7 +44,7 @@
 光影猫photonicat 正在测试中🤣努力修复中……
 
 
-## 插件预览 [![](https://img.shields.io/badge/-固件插件及功能预览-FFFFFF.svg)](#插件预览-)(#展示并不全)
+## 插件预览 [![](https://img.shields.io/badge/-固件插件及功能预览-FFFFFF.svg)](展示并不全)(#插件预览-)
 - ![img.png](backups/实例/1img.png)
 - ![img.png](backups/实例/img.png)
 </details>
