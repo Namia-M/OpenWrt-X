@@ -191,7 +191,7 @@
 
 
 1. 首先要登录 Gihub 账号，然后 Fork 此项目到你自己的 Github 仓库，复刻[`必看项！！！💕`](https://github.com/Namia-M/OpenWrt-X/blob/main/backups/%E5%B7%B2%E7%BC%96%E8%AF%91%E8%AF%B4%E6%98%8E/txt)
-3. REPO_TOKEN密匙制作教程：https://git.io/jm.md云编译需要 [在此](https://github.com/settings/tokens) 创建个```token```,勾选：```repo```, ```workflow```，保存所得的key
+3. REPO_TOKEN密匙制作教程：https://git.io/jm.md 云编译需要 [在此](https://github.com/settings/tokens) 创建个```token```,勾选：```repo```, ```workflow```，保存所得的key
 - 然后在此仓库```Settings```->```Secrets```中添加个名字为```REPO_TOKEN```的Secret,填入token获得的key
 
 - TG通知```Settings```->```Secrets```中添加个名字为```TELEGRAM_BOT_TOKEN```和```TELEGRAM_CHAT_ID```
