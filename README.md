@@ -24,7 +24,7 @@
 ## 固件特色 [![](https://img.shields.io/badge/-本项目固件特色-FFFFFF.svg)](#固件特色-)
 1. 固件每天定时自动编译，以确保获得最新体验
 2. x86集成部分常用有线、无线、3G / 4G 网卡驱动
-3. 光影猫photonicat 正在测试中
+3. 支持在线更新固件
 4. 集成中文版 netdata 实时监控插件，小白也能轻松看懂系统概况
 5. 集成 iStore 应用商店，可根据自己需求自由安装所需插件
 6. 集成 Docker 服务，可在 OpenWrt 内自由部署 Docker 应用
@@ -41,19 +41,10 @@
 
 
 ## 近期更新 [![](https://img.shields.io/badge/-近期固件更新-FFFFFF.svg)](#近期更新-)
-🤣努力修复中……
+光影猫photonicat 正在测试中🤣努力修复中……
 
 
 ## 插件预览 [![](https://img.shields.io/badge/-固件插件及功能预览-FFFFFF.svg)](#插件预览-)
-<details>
-<summary><b>&nbsp;ARMv8 盒子 Mini 精简版本插件预览</b></summary>
-<br/>
-<img src="https://cdn.jsdelivr.net/gh/haiibo/OpenWrt/images/mini.png"/>
-</details>
-
-<details>
-<summary><b>&nbsp;ARMv8 盒子 Plus 多功能版插件预览</b></summary>
-<br/>
 <img src="https://cdn.jsdelivr.net/gh/haiibo/OpenWrt/images/plus.png"/>
 </details>
 
