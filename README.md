@@ -195,9 +195,12 @@
 - 然后在此仓库```Settings```->```Secrets```中添加个名字为```REPO_TOKEN```的Secret,填入token获得的key
 
 - TG通知```Settings```->```Secrets```中添加个名字为```TELEGRAM_BOT_TOKEN```和```TELEGRAM_CHAT_ID```
-5. 插件对应名称及功能请参考恩山网友帖子：[Applications 添加插件应用说明](https://www.right.com.cn/forum/thread-3682029-1-1.html)
+5. 插件对应名称及功能请参考恩山网友帖子：[Applications 添加插件应用说明](https://www.right.com.cn/forum/thread-3682029-1-1.html) 不完全看我后面加啥随心
 6. 如需修改默认 IP、添加或删除插件包以及一些其他设置请在 `【xxx】diy-part.sh` 文件内修改
-7. 添加或修改 `xx.yml` 文件，最后点击 `Actions` 运行要编译的 `workflow` 即可开始编译
+7. 点击 `Actions` 运行要编译的 `workflow`去选取是否需要SSH链接如果不需要直接开始编译【如果需要ssh，点打开，最后点击运行程序就可以编译了
+- 在运行过程中会出现ssh链接网址点击它就会打开另外一个网址
+- 开始 ctrl+c 
+- 进ssh选择插件】
 8. 编译大概需要3-5小时，编译完成后在仓库主页 [Releases](https://github.com/haiibo/OpenWrt/releases) 对应 Tag 标签内下载固件
 <details>
 <summary><b>&nbsp;如果你觉得修改 config 文件麻烦，那么你可以点击此处尝试本地提取</b></summary>
