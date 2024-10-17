@@ -2,7 +2,7 @@
   
 ![img.png](backups/实例/openwrt.png)
 -
-<h1>OpenWrt-X — 固件云编译</h1>
+<h1>OpenWrt-X— 固件云编译</h1>
 
 <img src="https://img.shields.io/github/downloads/Namia-M/OpenWrt-X/total.svg?style=for-the-badge&color=32C955"/>
 <img src="https://img.shields.io/github/stars/Namia-M/OpenWrt-X.svg?style=for-the-badge&color=orange"/>
