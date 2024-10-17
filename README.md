@@ -43,8 +43,8 @@
 | [![](https://img.shields.io/badge/openwrt-PhotonicatWrt-32C955.svg?logo=openwrt)](https://github.com/Namia-M/OpenWrt-X/blob/main/.github/workflows/Immortalwrt.yml) | [![](https://github.com/Namia-M/OpenWrt-X/actions/workflows/Immortalwrt.yml/badge.svg)](https://github.com/Namia-M/OpenWrt-X/actions/workflows/Immortalwrt.yml) | [![](https://img.shields.io/badge/编译-配置-orange.svg?logo=apache-spark)](https://github.com/Namia-M/OpenWrt-X/blob/main/build/Lede/seed/photonicatWrt) | [![](https://img.shields.io/badge/下载-链接-blueviolet.svg?logo=hack-the-box)](https://github.com/Namia-M/OpenWrt-X/releases/tag/Update-rockchip) |
 
 
-## 近期更新 [![](https://img.shields.io/badge/-近期固件更新-FFFFFF.svg)](#近期更新-)
-光影猫photonicat 正在测试中🤣努力修复中……
+### 近期更新 [![](https://img.shields.io/badge/-近期固件更新-FFFFFF.svg)](#近期更新-)
+- ### 光影猫photonicat 正在测试中🤣努力修复中……
 
 
 ## 插件预览 [![](https://img.shields.io/badge/-固件插件及功能预览-FFFFFF.svg)](#插件预览-)
