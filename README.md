@@ -24,15 +24,15 @@
 
 
 ## 固件特色 [![](https://img.shields.io/badge/-本项目固件特色-FFFFFF.svg)](#固件特色-)
-1. 固件每天定时自动编译，以确保获得最新体验
+1. 支持在线更新固件
 2. x86集成部分常用有线、无线、3G / 4G 网卡驱动
-3. 支持在线更新固件
-4. 集成中文版 netdata 实时监控插件，小白也能轻松看懂系统概况
-5. 集成 iStore 应用商店，可根据自己需求自由安装所需插件
-6. 集成 Docker 服务，可在 OpenWrt 内自由部署 Docker 应用
-7. 集成应用过滤插件，支持游戏、视频、聊天、下载等 APP 过滤
-8. 集成在线用户插件，可查看所有在线用户 IP 地址与实时速率等
-9. 支持在线更新固件
+3. 光影猫photonicat[正在添加有线、无线、3G / 4G 网卡驱动]’
+4. 支持在线更新固件
+5. 集成中文版 netdata 实时监控插件，小白也能轻松看懂系统概况
+6. 集成 iStore 应用商店，可根据自己需求自由安装所需插件
+7. 集成 Docker 服务，可在 OpenWrt 内自由部署 Docker 应用
+8. 集成应用过滤插件，支持游戏、视频、聊天、下载等 APP 过滤
+9. 集成在线用户插件，可查看所有在线用户 IP 地址与实时速率等
 
 ## 固件下载 [![](https://img.shields.io/badge/-编译状态及下载链接-FFFFFF.svg)](#固件下载-)
 点击下表中 [![](https://img.shields.io/badge/下载-链接-blueviolet.svg?style=flat&logo=hack-the-box)](https://github.com/Namia-M/OpenWrt-X/releases) 即可跳转到该设备固件下载页面
