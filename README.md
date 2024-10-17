@@ -45,7 +45,7 @@
 
 
 ## 插件预览 [![](https://img.shields.io/badge/-固件插件及功能预览-FFFFFF.svg)](#插件预览-)
-<img src="https://cdn.jsdelivr.net/gh/backups/实例/1img.png"/>
+- ![img.png](backups/实例/img.png)
 </details>
 
 <details>
