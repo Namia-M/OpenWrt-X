@@ -223,7 +223,7 @@
 | :-------------: | :-------------: | :-------------: | :-------------: | :-------------: | :-------------: | :-------------: |
 | <img width="100" src="https://avatars.githubusercontent.com/u/53193414"/> | <img width="100" src="https://avatars.githubusercontent.com/u/31687149"/> | <img width="100" src="https://avatars.githubusercontent.com/u/23146169?v=4"/> | <img width="100" src="https://avatars.githubusercontent.com/u/2528830?s=200&v=4"/> |
 | [Lean](https://github.com/coolsnowwolf/lede) | [immortalwrt](https://github.com/immortalwrt/immortalwrt) | [Lienol](https://github.com/Lienol/openwrt) | [openwrt](https://github.com/openwrt/openwrt)| [Xwrt](https://github.com/x-wrt/x-wrt) | [281677160](https://github.com/281677160/bendi) |
-| <img width="100" src="https://avatars.githubusercontent.com/u/68696949"/> | <img width="100" src="https://avatars.githubusercontent.com/u/22287562"/> | <img width="100" src="https://avatars.githubusercontent.com/u/45143996"/> | <img width="100" src="https://avatars.githubusercontent.com/u/44228691"/> |
+| <img width="100" src="https://avatars.githubusercontent.com/u/25927179"/> | <img width="100" src="https://avatars.githubusercontent.com/u/22287562"/> | <img width="100" src="https://avatars.githubusercontent.com/u/45143996"/> | <img width="100" src="https://avatars.githubusercontent.com/u/44228691"/> |
 
 <a href="#readme">
 <img src="https://img.shields.io/badge/-返回顶部-FFFFFF.svg" title="返回顶部" align="right"/>
