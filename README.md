@@ -16,7 +16,7 @@
 
 
 
-- 项目使用 Github Actions 拉取 [Lean](https://github.com/coolsnowwolf/lede) [Immortalwrt](https://github.com/coolsnowwolf/lede)[Lienol](https://github.com/coolsnowwolf/lede)[Official](https://github.com/coolsnowwolf/lede)[Xwrt](https://github.com/coolsnowwolf/lede)的 Openwrt 源码仓库进行云编译
+- 项目使用 Github Actions 拉取 [Lean](https://github.com/coolsnowwolf/lede) [Immortalwrt](https://github.com/immortalwrt/immortalwrt) [Lienol](https://github.com/Lienol/openwrt) [Official](https://github.com/openwrt/openwrt) [Xwrt](https://github.com/x-wrt/x-wrt) 的 Openwrt 源码仓库进行云编译
 - 固件默认管理地址：`192.168.5.1` 默认用户：`root` 默认密码：`【空】`
 - 暂时提供适配于Rockchip个别平台、光影猫photonicat以及 X86 平台设备的 OpenWrt 固件
 - 项目编译的固件插件为最新版本，最新版插件可能有 BUG，如果之前使用稳定则无需追新
