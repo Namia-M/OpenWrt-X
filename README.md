@@ -29,12 +29,11 @@
 1. 支持在线更新固件
 2. x86集成部分常用有线、无线、3G / 4G 网卡驱动
 3. 光影猫photonicat正在添加有线、无线、3G / 4G /5G 网卡驱动
-4. 支持在线更新固件
-5. 集成中文版 netdata 实时监控插件，小白也能轻松看懂系统概况
-6. 集成 iStore 应用商店，可根据自己需求自由安装所需插件
-7. 集成 Docker 服务，可在 OpenWrt 内自由部署 Docker 应用
-8. 集成应用过滤插件，支持游戏、视频、聊天、下载等 APP 过滤
-9. 集成在线用户插件，可查看所有在线用户 IP 地址与实时速率等
+4. 集成中文版 netdata 实时监控插件，小白也能轻松看懂系统概况
+5. 集成 iStore 应用商店，可根据自己需求自由安装所需插件
+6. 集成 Docker 服务，可在 OpenWrt 内自由部署 Docker 应用
+7. 集成应用过滤插件，支持游戏、视频、聊天、下载等 APP 过滤
+8. 集成在线用户插件，可查看所有在线用户 IP 地址与实时速率等
 
 ## 固件下载 [![](https://img.shields.io/badge/-编译状态及下载链接-FFFFFF.svg)](#固件下载-)
 点击下表中 [![](https://img.shields.io/badge/下载-链接-blueviolet.svg?style=flat&logo=hack-the-box)](https://github.com/Namia-M/OpenWrt-X/releases) 即可跳转到该设备固件下载页面
@@ -81,7 +80,7 @@
 　├── 挂载点<br/>
 　├── 磁盘管理<br/>
 　├── 备份/升级<br/>
-　├── 定时/更新<br/>
+　├── 在线/更新<br/>
 　├── 自定义命令<br/>
 　├── 定时重启<br/>
 　├── 文件传输<br/>
