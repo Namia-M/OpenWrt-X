@@ -44,11 +44,10 @@
 光影猫photonicat 正在测试中🤣努力修复中……
 
 
-## 插件预览 [![](https://img.shields.io/badge/-固件插件及功能预览-FFFFFF.svg)](展示并不全)(#插件预览-)
+## 插件预览 [![](https://img.shields.io/badge/-固件插件及功能预览-FFFFFF.svg)](#插件预览-)
 - ![img.png](backups/实例/1img.png)
 - ![img.png](backups/实例/img.png)
 </details>
-
 <details>
 <summary><b>&nbsp;X86、R2S、R4S 等软路由插件预览</b></summary>
 <br/>
