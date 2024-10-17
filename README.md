@@ -1,4 +1,4 @@
-<div align="center">
+
 - ![img.png](backups/实例/openwrt.png)
 <h1>OpenWrt-X — 固件云编译</h1>
 
