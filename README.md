@@ -49,7 +49,7 @@
 
 
 ### 近期更新 [![](https://img.shields.io/badge/-近期固件更新-FFFFFF.svg)](#近期更新-)
-- ### 光影猫photonicat 正在测试中🤣努力修复中……
+- ### 努力修复光影猫photonicat编译基础配置……🤣
 
 
 ## 插件预览 [![](https://img.shields.io/badge/-固件插件及功能预览-FFFFFF.svg)](#插件预览-)
