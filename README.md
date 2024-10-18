@@ -201,7 +201,7 @@
 
 - TG通知```Settings```->```Secrets```中添加个名字为```TELEGRAM_BOT_TOKEN```和```TELEGRAM_CHAT_ID```
 3. 插件对应名称及功能请参考恩山网友帖子：[Applications 添加插件应用说明](https://www.right.com.cn/forum/thread-3682029-1-1.html) 不完全看我后面加啥随心
-4. 如需修改默认 IP、添加或删除插件包以及一些其他设置请在 `【xxx】diy-part.sh` 文件内修改
+4. 如需修改默认 IP、添加一些其他设置请在 `【xxx】diy-part.sh` 文件内修改，已经大众化了
 5. 点击 `Actions` 运行要编译的 `workflow`去选取是否需要SSH链接如果不需要直接开始编译
 - 如果需要ssh，点打开，最后点击运行程序就可以了
 - 在运行过程中会出现ssh链接网址点击它就会打开另外一个网址
