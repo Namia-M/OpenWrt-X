@@ -180,23 +180,23 @@ kmod-nf-log6=y
 kmod-nf-nat=y
 kmod-nf-nat6=y
 kmod-nf-nathelper=y
-kmod-nf-nathelper-extra - 6.6.56-r1
-kmod-nf-reject - 6.6.56-r1
-kmod-nf-reject6 - 6.6.56-r1
-kmod-nf-socket - 6.6.56-r1
-kmod-nf-tproxy - 6.6.56-r1
-kmod-nfnetlink - 6.6.56-r1
-kmod-nfnetlink-queue - 6.6.56-r1
-kmod-nft-arp - 6.6.56-r1
-kmod-nft-compat - 6.6.56-r1
-kmod-nft-core - 6.6.56-r1
-kmod-nft-fib - 6.6.56-r1
-kmod-nft-nat - 6.6.56-r1
-kmod-nft-offload - 6.6.56-r1
-kmod-nft-queue - 6.6.56-r1
-kmod-nft-socket - 6.6.56-r1
-kmod-nft-tproxy - 6.6.56-r1
-kmod-nls-base - 6.6.56-r1
+kmod-nf-nathelper-extra=y
+kmod-nf-reject=y
+kmod-nf-reject6=y
+kmod-nf-socket=y
+kmod-nf-tproxy=y
+kmod-nfnetlink=y
+kmod-nfnetlink-queue=y
+kmod-nft-arp=y
+kmod-nft-compat=y
+kmod-nft-core=y
+kmod-nft-fib=y
+kmod-nft-nat=y
+kmod-nft-offload=y
+kmod-nft-queue=y
+kmod-nft-socket=y
+kmod-nft-tproxy=y
+kmod-nls-base=y
 kmod-nls-cp437 - 6.6.56-r1
 kmod-nls-iso8859-1 - 6.6.56-r1
 kmod-nls-utf8 - 6.6.56-r1
