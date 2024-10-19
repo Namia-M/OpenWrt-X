@@ -35,17 +35,17 @@ dbus=y
 ddns-scripts=y
 ddns-scripts-services=y
 ddns-scripts_aliyun=y
-dnsmasq-full - 2.90-r3
-dropbear - 2024.85-r1
-e2fsprogs - 1.47.0-r2
-ethtool - 6.10-r1
-fdisk - 2.40.2-r1
-firewall - 2022.02.17~4cd7d4f3-r3
-fstools - 2024.07.14~408c2cc4-r1
-fuse-utils - 2.9.9-r2
-fuse3-utils - 3.16.2-r1
-fwtool - 2019.11.12~8f7fe925-r1
-getrandom - 2024.04.26~85f10530-r1
+dnsmasq-full=y
+dropbear=y
+e2fsprogs=y
+ethtool=y
+fdisk=y
+firewall=y
+fstools=y
+fuse-utils=y
+fuse3-utils=y
+fwtool=y
+getrandom=y
 glib2 - 2.82.0-r1
 haproxy - 3.0.5-r1
 hostapd-common - 2024.09.15~5ace39b0-r1
