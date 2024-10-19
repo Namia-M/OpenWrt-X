@@ -1,326 +1,480 @@
 CONFIG_TARGET_rockchip=y
 CONFIG_TARGET_rockchip_armv8=y
 CONFIG_TARGET_rockchip_armv8_DEVICE_ariaboard_photonicat=y
-CONFIG_ATH11K_THERMAL=y
-CONFIG_DRIVER_11AX_SUPPORT=y
-CONFIG_DWARVES=y
-CONFIG_GNUTLS_ALPN=y
-CONFIG_GNUTLS_ANON=y
-CONFIG_GNUTLS_DTLS_SRTP=y
-CONFIG_GNUTLS_HEARTBEAT=y
-CONFIG_GNUTLS_OCSP=y
-CONFIG_GNUTLS_PSK=y
-CONFIG_HTOP_LMSENSORS=y
-CONFIG_KERNEL_ARM_PMU=y
-CONFIG_KERNEL_ARM_PMUV3=y
-CONFIG_KERNEL_BPF_EVENTS=y
-CONFIG_KERNEL_BPF_STREAM_PARSER=y
-# CONFIG_KERNEL_BTRFS_FS_POSIX_ACL is not set
-# CONFIG_KERNEL_CIFS_ACL is not set
-CONFIG_KERNEL_DEBUG_INFO_BTF=y
-CONFIG_KERNEL_DEBUG_INFO_BTF_MODULES=y
-# CONFIG_KERNEL_DEBUG_INFO_REDUCED is not set
-# CONFIG_KERNEL_EXT4_FS_POSIX_ACL is not set
-# CONFIG_KERNEL_EXT4_FS_SECURITY is not set
-# CONFIG_KERNEL_F2FS_FS_POSIX_ACL is not set
-# CONFIG_KERNEL_F2FS_FS_SECURITY is not set
-# CONFIG_KERNEL_FS_POSIX_ACL is not set
-CONFIG_KERNEL_FTRACE=y
-# CONFIG_KERNEL_HFSPLUS_FS_POSIX_ACL is not set
-# CONFIG_KERNEL_HFS_FS_POSIX_ACL is not set
-# CONFIG_KERNEL_JFFS2_FS_POSIX_ACL is not set
-# CONFIG_KERNEL_JFFS2_FS_SECURITY is not set
-# CONFIG_KERNEL_JFS_POSIX_ACL is not set
-CONFIG_KERNEL_KPROBES=y
-CONFIG_KERNEL_KPROBE_EVENTS=y
-CONFIG_KERNEL_MODULE_ALLOW_BTF_MISMATCH=y
-# CONFIG_KERNEL_NFS_ACL_SUPPORT is not set
-CONFIG_KERNEL_PERF_EVENTS=y
-# CONFIG_KERNEL_REISER_FS_POSIX_ACL is not set
-# CONFIG_KERNEL_TMPFS_POSIX_ACL is not set
-# CONFIG_KERNEL_UBIFS_FS_SECURITY is not set
-CONFIG_KERNEL_XDP_SOCKETS=y
-# CONFIG_KERNEL_XFS_POSIX_ACL is not set
-CONFIG_LIBSODIUM_MINIMAL=y
-CONFIG_LUCI_LANG_zh_Hans=y
-CONFIG_MBEDTLS_AESCE_C=y
-CONFIG_MBEDTLS_AES_C=y
-CONFIG_MBEDTLS_CMAC_C=y
-CONFIG_MBEDTLS_DES_C=y
-CONFIG_MBEDTLS_ECP_DP_CURVE25519_ENABLED=y
-CONFIG_MBEDTLS_ECP_DP_SECP256K1_ENABLED=y
-CONFIG_MBEDTLS_ECP_DP_SECP256R1_ENABLED=y
-CONFIG_MBEDTLS_ECP_DP_SECP384R1_ENABLED=y
-CONFIG_MBEDTLS_ECP_DP_SECP521R1_ENABLED=y
-CONFIG_MBEDTLS_ENTROPY_FORCE_SHA256=y
-CONFIG_MBEDTLS_GCM_C=y
-CONFIG_MBEDTLS_HKDF_C=y
-CONFIG_MBEDTLS_KEY_EXCHANGE_ECDHE_ECDSA_ENABLED=y
-CONFIG_MBEDTLS_KEY_EXCHANGE_ECDHE_PSK_ENABLED=y
-CONFIG_MBEDTLS_KEY_EXCHANGE_ECDHE_RSA_ENABLED=y
-CONFIG_MBEDTLS_KEY_EXCHANGE_PSK_ENABLED=y
-CONFIG_MBEDTLS_NIST_KW_C=y
-CONFIG_MBEDTLS_PSA_CRYPTO_CLIENT=y
-CONFIG_MBEDTLS_RSA_NO_CRT=y
-CONFIG_MBEDTLS_SSL_PROTO_TLS1_2=y
-CONFIG_MBEDTLS_SSL_PROTO_TLS1_3=y
-CONFIG_MBEDTLS_SSL_TLS1_3_COMPATIBILITY_MODE=y
-CONFIG_MBEDTLS_SSL_TLS1_3_KEY_EXCHANGE_MODE_EPHEMERAL_ENABLED=y
-CONFIG_MBEDTLS_SSL_TLS1_3_KEY_EXCHANGE_MODE_PSK_ENABLED=y
-CONFIG_MBEDTLS_SSL_TLS1_3_KEY_EXCHANGE_MODE_PSK_EPHEMERAL_ENABLED=y
-CONFIG_MBEDTLS_THREADING_C=y
-CONFIG_MBEDTLS_THREADING_PTHREAD=y
-CONFIG_OPENSSL_ENGINE_BUILTIN=y
-CONFIG_OPENSSL_ENGINE_BUILTIN_AFALG=y
-CONFIG_OPENSSL_ENGINE_BUILTIN_DEVCRYPTO=y
-CONFIG_PACKAGE_6in4=y
-CONFIG_PACKAGE_6rd=y
-CONFIG_PACKAGE_6to4=y
-CONFIG_PACKAGE_ath11k-firmware-ipq6018=y
-CONFIG_PACKAGE_ath11k-firmware-ipq8074=y
-CONFIG_PACKAGE_ath11k-firmware-qca6390=y
-CONFIG_PACKAGE_ath11k-firmware-qcn9074=y
-CONFIG_PACKAGE_ath11k-firmware-wcn6750=y
-CONFIG_PACKAGE_ath11k-firmware-wcn6855=y
-CONFIG_PACKAGE_attr=y
-CONFIG_PACKAGE_autosamba=y
-CONFIG_PACKAGE_avahi-dbus-daemon=y
-CONFIG_PACKAGE_boost=y
-CONFIG_PACKAGE_boost-program_options=y
-CONFIG_PACKAGE_boost-system=y
-CONFIG_PACKAGE_chinadns-ng=y
-CONFIG_PACKAGE_collectd=y
-CONFIG_PACKAGE_collectd-mod-cpu=y
-CONFIG_PACKAGE_collectd-mod-interface=y
-CONFIG_PACKAGE_collectd-mod-iwinfo=y
-CONFIG_PACKAGE_collectd-mod-load=y
-CONFIG_PACKAGE_collectd-mod-memory=y
-CONFIG_PACKAGE_collectd-mod-network=y
-CONFIG_PACKAGE_collectd-mod-rrdtool=y
-CONFIG_PACKAGE_coreutils=y
-CONFIG_PACKAGE_coreutils-base64=y
-CONFIG_PACKAGE_coreutils-nohup=y
-CONFIG_PACKAGE_dbus=y
-CONFIG_PACKAGE_default-settings=y
-CONFIG_PACKAGE_default-settings-chn=y
-CONFIG_PACKAGE_dns2socks=y
-CONFIG_PACKAGE_dns2tcp=y
-# CONFIG_PACKAGE_dnsmasq_full_nftset is not set
-CONFIG_PACKAGE_glib2=y
-CONFIG_PACKAGE_haproxy=y
-CONFIG_PACKAGE_htop=y
-CONFIG_PACKAGE_ip-full=y
-CONFIG_PACKAGE_ipset=y
-CONFIG_PACKAGE_ipt2socks=y
-CONFIG_PACKAGE_jq=y
-CONFIG_PACKAGE_kmod-asn1-decoder=y
-CONFIG_PACKAGE_kmod-ath11k=y
-CONFIG_PACKAGE_kmod-ath11k-pci=y
-CONFIG_PACKAGE_kmod-crypto-authenc=y
-CONFIG_PACKAGE_kmod-crypto-kpp=y
-CONFIG_PACKAGE_kmod-crypto-lib-chacha20=y
-CONFIG_PACKAGE_kmod-crypto-lib-chacha20poly1305=y
-CONFIG_PACKAGE_kmod-crypto-lib-curve25519=y
-CONFIG_PACKAGE_kmod-crypto-lib-poly1305=y
-CONFIG_PACKAGE_kmod-crypto-michael-mic=y
-CONFIG_PACKAGE_kmod-cryptodev=y
-CONFIG_PACKAGE_kmod-ebtables=y
-CONFIG_PACKAGE_kmod-ebtables-ipv4=y
-CONFIG_PACKAGE_kmod-ebtables-ipv6=y
-CONFIG_PACKAGE_kmod-inet-diag=y
-CONFIG_PACKAGE_kmod-ip6tables=y
-CONFIG_PACKAGE_kmod-ip6tables-extra=y
-CONFIG_PACKAGE_kmod-ipt-compat-xtables=y
-CONFIG_PACKAGE_kmod-ipt-conntrack=y
-CONFIG_PACKAGE_kmod-ipt-core=y
-CONFIG_PACKAGE_kmod-ipt-extra=y
-CONFIG_PACKAGE_kmod-ipt-filter=y
-CONFIG_PACKAGE_kmod-ipt-iface=y
-CONFIG_PACKAGE_kmod-ipt-ipmark=y
-CONFIG_PACKAGE_kmod-ipt-ipp2p=y
-CONFIG_PACKAGE_kmod-ipt-iprange=y
-CONFIG_PACKAGE_kmod-ipt-ipset=y
-CONFIG_PACKAGE_kmod-ipt-nat=y
-CONFIG_PACKAGE_kmod-ipt-nat-extra=y
-CONFIG_PACKAGE_kmod-ipt-nat6=y
-CONFIG_PACKAGE_kmod-ipt-nfqueue=y
-CONFIG_PACKAGE_kmod-ipt-offload=y
-CONFIG_PACKAGE_kmod-ipt-raw=y
-CONFIG_PACKAGE_kmod-ipt-raw6=y
-CONFIG_PACKAGE_kmod-ipt-socket=y
-CONFIG_PACKAGE_kmod-ipt-tproxy=y
-CONFIG_PACKAGE_kmod-iptunnel=y
-CONFIG_PACKAGE_kmod-iptunnel4=y
-CONFIG_PACKAGE_kmod-lib-textsearch=y
-CONFIG_PACKAGE_kmod-mhi-bus=y
-CONFIG_PACKAGE_kmod-netlink-diag=y
-CONFIG_PACKAGE_kmod-nf-ipt=y
-CONFIG_PACKAGE_kmod-nf-ipt6=y
-CONFIG_PACKAGE_kmod-nf-nat6=y
-CONFIG_PACKAGE_kmod-nf-nathelper=y
-CONFIG_PACKAGE_kmod-nf-nathelper-extra=y
-CONFIG_PACKAGE_kmod-nf-socket=y
-CONFIG_PACKAGE_kmod-nfnetlink-queue=y
-CONFIG_PACKAGE_kmod-nft-arp=y
-CONFIG_PACKAGE_kmod-nft-queue=y
-CONFIG_PACKAGE_kmod-nft-socket=y
-CONFIG_PACKAGE_kmod-qcom-qmi-helpers=y
-CONFIG_PACKAGE_kmod-qrtr=y
-CONFIG_PACKAGE_kmod-qrtr-mhi=y
-CONFIG_PACKAGE_kmod-sit=y
-CONFIG_PACKAGE_kmod-tun=y
-CONFIG_PACKAGE_kmod-udptunnel4=y
-CONFIG_PACKAGE_kmod-udptunnel6=y
-CONFIG_PACKAGE_kmod-wireguard=y
-# CONFIG_PACKAGE_knot-resolver_dnstap is not set
-CONFIG_PACKAGE_libatomic=y
-CONFIG_PACKAGE_libattr=y
-CONFIG_PACKAGE_libavahi-client=y
-CONFIG_PACKAGE_libavahi-dbus-support=y
-CONFIG_PACKAGE_libbpf=y
-CONFIG_PACKAGE_libcap-ng=y
-CONFIG_PACKAGE_libcares=y
-CONFIG_PACKAGE_libdaemon=y
-CONFIG_PACKAGE_libdbus=y
-CONFIG_PACKAGE_libelf=y
-CONFIG_PACKAGE_libev=y
-CONFIG_PACKAGE_libexpat=y
-CONFIG_PACKAGE_libffi=y
-CONFIG_PACKAGE_libgnutls=y
-CONFIG_PACKAGE_libgpiod=y
-CONFIG_PACKAGE_libipset=y
-CONFIG_PACKAGE_libltdl=y
-CONFIG_PACKAGE_liblua5.3=y
-CONFIG_PACKAGE_libmbedtls=y
-CONFIG_PACKAGE_libnetsnmp=y
-CONFIG_PACKAGE_libpci=y
-CONFIG_PACKAGE_libpopt=y
-CONFIG_PACKAGE_libqrencode=y
-CONFIG_PACKAGE_libreadline=y
-CONFIG_PACKAGE_librrd1=y
-CONFIG_PACKAGE_libsodium=y
-CONFIG_PACKAGE_libstdcpp=y
-CONFIG_PACKAGE_libtasn1=y
-CONFIG_PACKAGE_libtirpc=y
-CONFIG_PACKAGE_libuci-lua=y
-CONFIG_PACKAGE_libudns=y
-CONFIG_PACKAGE_liburing=y
-CONFIG_PACKAGE_libusb-1.0=y
-# CONFIG_PACKAGE_libuv is not set
-# CONFIG_PACKAGE_libwebsockets-full is not set
-CONFIG_PACKAGE_luci=y
-CONFIG_PACKAGE_luci-app-arpbind=y
-CONFIG_PACKAGE_luci-app-cpufreq=y
-# CONFIG_PACKAGE_luci-app-diskman_INCLUDE_btrfs_progs is not set
-# CONFIG_PACKAGE_luci-app-diskman_INCLUDE_lsblk is not set
-CONFIG_PACKAGE_luci-app-firewall=y
-CONFIG_PACKAGE_luci-app-opkg=y
-CONFIG_PACKAGE_luci-app-passwall=y
-CONFIG_PACKAGE_luci-app-passwall2=y
-CONFIG_PACKAGE_luci-app-passwall2_INCLUDE_Haproxy=y
-CONFIG_PACKAGE_luci-app-passwall2_INCLUDE_Shadowsocks_Rust_Client=y
-CONFIG_PACKAGE_luci-app-passwall2_INCLUDE_Shadowsocks_Rust_Server=y
-CONFIG_PACKAGE_luci-app-passwall2_INCLUDE_Simple_Obfs=y
-CONFIG_PACKAGE_luci-app-passwall2_INCLUDE_SingBox=y
-CONFIG_PACKAGE_luci-app-passwall2_INCLUDE_V2ray_Plugin=y
-CONFIG_PACKAGE_luci-app-passwall_INCLUDE_Haproxy=y
-CONFIG_PACKAGE_luci-app-passwall_INCLUDE_Shadowsocks_Rust_Client=y
-CONFIG_PACKAGE_luci-app-passwall_INCLUDE_Simple_Obfs=y
-CONFIG_PACKAGE_luci-app-passwall_INCLUDE_SingBox=y
-CONFIG_PACKAGE_luci-app-passwall_INCLUDE_V2ray_Plugin=y
-CONFIG_PACKAGE_luci-app-passwall_INCLUDE_Xray=y
-CONFIG_PACKAGE_luci-app-passwall_Nftables_Transparent_Proxy=y
-# CONFIG_PACKAGE_luci-app-rclone_INCLUDE_rclone-ng is not set
-# CONFIG_PACKAGE_luci-app-rclone_INCLUDE_rclone-webui is not set
-CONFIG_PACKAGE_luci-app-samba4=y
-CONFIG_PACKAGE_luci-app-smartdns=y
-CONFIG_PACKAGE_luci-app-statistics=y
-# CONFIG_PACKAGE_luci-app-ttyd is not set
-CONFIG_PACKAGE_luci-app-upnp=y
-CONFIG_PACKAGE_luci-compat=y
-CONFIG_PACKAGE_luci-i18n-arpbind-zh-cn=y
-CONFIG_PACKAGE_luci-i18n-autoupdate-zh-cn=y
-CONFIG_PACKAGE_luci-i18n-base-zh-cn=y
-CONFIG_PACKAGE_luci-i18n-cpufreq-zh-cn=y
-CONFIG_PACKAGE_luci-i18n-firewall-zh-cn=y
-CONFIG_PACKAGE_luci-i18n-opkg-zh-cn=y
-CONFIG_PACKAGE_luci-i18n-passwall-zh-cn=y
-CONFIG_PACKAGE_luci-i18n-passwall2-zh-cn=y
-CONFIG_PACKAGE_luci-i18n-samba4-zh-cn=y
-CONFIG_PACKAGE_luci-i18n-smartdns-zh-cn=y
-CONFIG_PACKAGE_luci-i18n-statistics-zh-cn=y
-CONFIG_PACKAGE_luci-i18n-upnp-zh-cn=y
-CONFIG_PACKAGE_luci-lib-uqr=y
-CONFIG_PACKAGE_luci-light=y
-CONFIG_PACKAGE_luci-mod-admin-full=y
-CONFIG_PACKAGE_luci-mod-network=y
-CONFIG_PACKAGE_luci-mod-status=y
-CONFIG_PACKAGE_luci-mod-system=y
-CONFIG_PACKAGE_luci-proto-ipv6=y
-CONFIG_PACKAGE_luci-proto-ppp=y
-CONFIG_PACKAGE_luci-proto-wireguard=y
-CONFIG_PACKAGE_luci-theme-argon=y
-CONFIG_PACKAGE_luci-theme-bootstrap=y
-CONFIG_PACKAGE_luci-theme-bootstrap-mod=y
-CONFIG_PACKAGE_luci-theme-material=y
-CONFIG_PACKAGE_luci-theme-openwrt=y
-CONFIG_PACKAGE_luci-theme-openwrt-2020=y
-CONFIG_PACKAGE_microsocks=y
-CONFIG_PACKAGE_miniupnpd-nftables=y
-CONFIG_PACKAGE_netbird=y
-CONFIG_PACKAGE_openssh-sftp-server=y
-CONFIG_PACKAGE_qrencode=y
-CONFIG_PACKAGE_resolveip=y
-CONFIG_PACKAGE_rpcd-mod-iwinfo=y
-CONFIG_PACKAGE_rpcd-mod-rrdns=y
-CONFIG_PACKAGE_rrdtool1=y
-CONFIG_PACKAGE_shadowsocks-rust-sslocal=y
-CONFIG_PACKAGE_shadowsocks-rust-ssserver=y
-CONFIG_PACKAGE_simple-obfs=y
-CONFIG_PACKAGE_sing-box=y
-CONFIG_PACKAGE_smartdns=y
-CONFIG_PACKAGE_snmpd=y
-CONFIG_PACKAGE_tailscale=y
-CONFIG_PACKAGE_tcping=y
-# CONFIG_PACKAGE_ttyd is not set
-CONFIG_PACKAGE_uhttpd=y
-CONFIG_PACKAGE_uhttpd-mod-ubus=y
-CONFIG_PACKAGE_unzip=y
-CONFIG_PACKAGE_v2ray-geoip=y
-CONFIG_PACKAGE_v2ray-geosite=y
-CONFIG_PACKAGE_v2ray-plugin=y
-CONFIG_PACKAGE_wireguard-tools=y
-CONFIG_PACKAGE_wsdd2=y
-CONFIG_PACKAGE_xray-core=y
-CONFIG_SAMBA4_SERVER_AVAHI=y
-CONFIG_SAMBA4_SERVER_NETBIOS=y
-CONFIG_SAMBA4_SERVER_VFS=y
-CONFIG_SAMBA4_SERVER_WSDD2=y
-CONFIG_SING_BOX_WITH_CLASH_API=y
-CONFIG_SING_BOX_WITH_DHCP=y
-CONFIG_SING_BOX_WITH_ECH=y
-CONFIG_SING_BOX_WITH_GVISOR=y
-CONFIG_SING_BOX_WITH_QUIC=y
-CONFIG_SING_BOX_WITH_UTLS=y
-CONFIG_SING_BOX_WITH_WIREGUARD=y
-# CONFIG_TARGET_ROOTFS_EXT4FS is not set
-CONFIG_TARGET_ROOTFS_PARTSIZE=1026
-# CONFIG_USE_FS_ACL_ATTR is not set
-CONFIG_boost-compile-visibility-hidden=y
-CONFIG_boost-runtime-shared=y
-CONFIG_boost-static-and-shared-libs=y
-CONFIG_boost-variant-release=y
-# CONFIG_PACKAGE_dnsmasq_full_nftset is not set
-# CONFIG_PACKAGE_luci-app-passwall2_INCLUDE_ShadowsocksR_Libev_Client is not set
-# CONFIG_PACKAGE_luci-app-passwall2_INCLUDE_Shadowsocks_Libev_Client is not set
-# CONFIG_PACKAGE_luci-app-passwall2_Nftables_Transparent_Proxy is not set
-# CONFIG_PACKAGE_luci-app-passwall_INCLUDE_ShadowsocksR_Libev_Client is not set
-# CONFIG_PACKAGE_luci-app-passwall_INCLUDE_Shadowsocks_Libev_Client is not set
-# CONFIG_PACKAGE_luci-app-passwall_INCLUDE_Shadowsocks_Libev_Server is not set
-# CONFIG_PACKAGE_luci-app-passwall_INCLUDE_Trojan_Plus is not set
-# CONFIG_PACKAGE_shadowsocks-libev-ss-local is not set
-# CONFIG_PACKAGE_shadowsocks-libev-ss-redir is not set
-# CONFIG_PACKAGE_shadowsocks-libev-ss-server is not set
-# CONFIG_PACKAGE_shadowsocksr-libev-ssr-local is not set
-# CONFIG_PACKAGE_shadowsocksr-libev-ssr-redir is not set
-# CONFIG_PACKAGE_trojan-plus is not set
+6in4=y
+acl=y
+aria2=y
+attr=y
+automount=y
+avahi-dbus-daemon=y
+base-files=y
+block-mount=y
+boost=y
+boost-program_options=y
+boost-system=y
+btrfs-progs=y
+busybox=y
+ca-bundle=y
+ca-certificates=y
+cgi-io=y
+cgroupfs-mount=y
+collectd=y
+collectd-mod-cpu=y
+collectd-mod-interface=y
+collectd-mod-iwinfo=y
+collectd-mod-load - 5.12.0-r53
+collectd-mod-memory - 5.12.0-r53
+collectd-mod-network - 5.12.0-r53
+collectd-mod-rrdtool - 5.12.0-r53
+containerd - 1.7.22-r1
+coreutils - 9.3-r1
+coreutils-base64 - 9.3-r1
+coreutils-nohup - 9.3-r1
+curl - 8.10.1-r1
+dbus - 1.14.10-r1
+ddns-scripts - 2.8.2-r48
+ddns-scripts-services - 2.8.2-r48
+ddns-scripts_aliyun - 1.0.3-r2
+dnsmasq-full - 2.90-r3
+dropbear - 2024.85-r1
+e2fsprogs - 1.47.0-r2
+ethtool - 6.10-r1
+fdisk - 2.40.2-r1
+firewall - 2022.02.17~4cd7d4f3-r3
+fstools - 2024.07.14~408c2cc4-r1
+fuse-utils - 2.9.9-r2
+fuse3-utils - 3.16.2-r1
+fwtool - 2019.11.12~8f7fe925-r1
+getrandom - 2024.04.26~85f10530-r1
+glib2 - 2.82.0-r1
+haproxy - 3.0.5-r1
+hostapd-common - 2024.09.15~5ace39b0-r1
+htop - 3.3.0-r2
+ip-full - 6.11.0-r1
+iperf - 2.1.9-r1
+iperf3 - 3.17.1-r3
+iptables-mod-conntrack-extra - 1.8.8-r2
+iptables-mod-extra - 1.8.8-r2
+iptables-mod-fullconenat - 2023.01.01~74c5e6f3-r1
+iptables-nft - 1.8.8-r2
+iw - 6.9-r1
+iwinfo - 2024.10.01~714e4199-r1
+jansson4 - 2.14-r3
+jq - 1.7.1-r1
+jshn - 2024.03.29~eb9bcb64-r1
+jsonfilter - 2024.01.23~594cfa86-r1
+kernel - 6.6.56~f182311049b04e17f02f6a22bf0c582c-r1
+kmod-asn1-decoder - 6.6.56-r1
+kmod-ath - 6.6.56.6.11.2-r1
+kmod-ath10k-sdio - 6.6.56.6.11.2-r1
+kmod-ath11k - 6.6.56.6.11.2-r1
+kmod-ath11k-pci - 6.6.56.6.11.2-r1
+kmod-br-netfilter - 6.6.56-r1
+kmod-cfg80211 - 6.6.56.6.11.2-r1
+kmod-crypto-acompress - 6.6.56-r1
+kmod-crypto-aead - 6.6.56-r1
+kmod-crypto-arc4 - 6.6.56-r1
+kmod-crypto-authenc - 6.6.56-r1
+kmod-crypto-blake2b - 6.6.56-r1
+kmod-crypto-ccm - 6.6.56-r1
+kmod-crypto-cmac - 6.6.56-r1
+kmod-crypto-crc32c - 6.6.56-r1
+kmod-crypto-ctr - 6.6.56-r1
+kmod-crypto-ecb - 6.6.56-r1
+kmod-crypto-gcm - 6.6.56-r1
+kmod-crypto-geniv - 6.6.56-r1
+kmod-crypto-gf128 - 6.6.56-r1
+kmod-crypto-ghash - 6.6.56-r1
+kmod-crypto-hash - 6.6.56-r1
+kmod-crypto-hmac - 6.6.56-r1
+kmod-crypto-kpp - 6.6.56-r1
+kmod-crypto-lib-chacha20 - 6.6.56-r1
+kmod-crypto-lib-chacha20poly1305 - 6.6.56-r1
+kmod-crypto-lib-curve25519 - 6.6.56-r1
+kmod-crypto-lib-poly1305 - 6.6.56-r1
+kmod-crypto-manager - 6.6.56-r1
+kmod-crypto-michael-mic - 6.6.56-r1
+kmod-crypto-null - 6.6.56-r1
+kmod-crypto-rng - 6.6.56-r1
+kmod-crypto-seqiv - 6.6.56-r1
+kmod-crypto-sha1 - 6.6.56-r1
+kmod-crypto-sha3 - 6.6.56-r1
+kmod-crypto-sha512 - 6.6.56-r1
+kmod-crypto-user - 6.6.56-r1
+kmod-crypto-xxhash - 6.6.56-r1
+kmod-cryptodev - 6.6.56.1.13-r1
+kmod-dummy - 6.6.56-r1
+kmod-ebtables - 6.6.56-r1
+kmod-ebtables-ipv4 - 6.6.56-r1
+kmod-ebtables-ipv6 - 6.6.56-r1
+kmod-fs-btrfs - 6.6.56-r1
+kmod-fs-exfat - 6.6.56-r1
+kmod-fs-ext4 - 6.6.56-r1
+kmod-fs-ntfs3 - 6.6.56-r1
+kmod-fs-vfat - 6.6.56-r1
+kmod-fuse - 6.6.56-r1
+kmod-gpio-button-hotplug - 6.6.56-r5
+kmod-hwmon-core - 6.6.56-r1
+kmod-inet-diag - 6.6.56-r1
+kmod-ip6tables - 6.6.56-r1
+kmod-ip6tables-extra - 6.6.56-r1
+kmod-ipt-compat-xtables - 6.6.56.3.26-r1
+kmod-ipt-conntrack - 6.6.56-r1
+kmod-ipt-conntrack-extra - 6.6.56-r1
+kmod-ipt-core - 6.6.56-r1
+kmod-ipt-extra - 6.6.56-r1
+kmod-ipt-filter - 6.6.56-r1
+kmod-ipt-fullconenat - 6.6.56.2023.01.01~74c5e6f3-r1
+kmod-ipt-iface - 6.6.56.3.26-r1
+kmod-ipt-ipmark - 6.6.56.3.26-r1
+kmod-ipt-ipp2p - 6.6.56.3.26-r1
+kmod-ipt-iprange - 6.6.56-r1
+kmod-ipt-ipset - 6.6.56-r1
+kmod-ipt-nat - 6.6.56-r1
+kmod-ipt-nat-extra - 6.6.56-r1
+kmod-ipt-nat6 - 6.6.56-r1
+kmod-ipt-nfqueue - 6.6.56-r1
+kmod-ipt-offload - 6.6.56-r1
+kmod-ipt-physdev - 6.6.56-r1
+kmod-ipt-raw - 6.6.56-r1
+kmod-ipt-raw6 - 6.6.56-r1
+kmod-ipt-socket - 6.6.56-r1
+kmod-ipt-tproxy - 6.6.56-r1
+kmod-iptunnel - 6.6.56-r1
+kmod-iptunnel4 - 6.6.56-r1
+kmod-lib-crc-ccitt - 6.6.56-r1
+kmod-lib-crc16 - 6.6.56-r1
+kmod-lib-crc32c - 6.6.56-r1
+kmod-lib-lzo - 6.6.56-r1
+kmod-lib-raid6 - 6.6.56-r1
+kmod-lib-textsearch - 6.6.56-r1
+kmod-lib-xor - 6.6.56-r1
+kmod-lib-xxhash - 6.6.56-r1
+kmod-lib-zlib-deflate - 6.6.56-r1
+kmod-lib-zlib-inflate - 6.6.56-r1
+kmod-lib-zstd - 6.6.56-r1
+kmod-mac80211 - 6.6.56.6.11.2-r1
+kmod-macvlan - 6.6.56-r1
+kmod-mhi-bus - 6.6.56-r1
+kmod-mii - 6.6.56-r1
+kmod-mmc - 6.6.56-r1
+kmod-mppe - 6.6.56-r1
+kmod-mt76-connac - 6.6.56.2024.10.11.1~ecca0e77-r1
+kmod-mt76-core - 6.6.56.2024.10.11.1~ecca0e77-r1
+kmod-mt7921-common - 6.6.56.2024.10.11.1~ecca0e77-r1
+kmod-mt7921-firmware - 6.6.56.2024.10.11.1~ecca0e77-r1
+kmod-mt7921e - 6.6.56.2024.10.11.1~ecca0e77-r1
+kmod-mt7922-firmware - 6.6.56.2024.10.11.1~ecca0e77-r1
+kmod-mt792x-common - 6.6.56.2024.10.11.1~ecca0e77-r1
+kmod-netlink-diag - 6.6.56-r1
+kmod-nf-conncount - 6.6.56-r1
+kmod-nf-conntrack - 6.6.56-r1
+kmod-nf-conntrack-netlink - 6.6.56-r1
+kmod-nf-conntrack6 - 6.6.56-r1
+kmod-nf-flow - 6.6.56-r1
+kmod-nf-ipt - 6.6.56-r1
+kmod-nf-ipt6 - 6.6.56-r1
+kmod-nf-ipvs - 6.6.56-r1
+kmod-nf-log - 6.6.56-r1
+kmod-nf-log6 - 6.6.56-r1
+kmod-nf-nat - 6.6.56-r1
+kmod-nf-nat6 - 6.6.56-r1
+kmod-nf-nathelper - 6.6.56-r1
+kmod-nf-nathelper-extra - 6.6.56-r1
+kmod-nf-reject - 6.6.56-r1
+kmod-nf-reject6 - 6.6.56-r1
+kmod-nf-socket - 6.6.56-r1
+kmod-nf-tproxy - 6.6.56-r1
+kmod-nfnetlink - 6.6.56-r1
+kmod-nfnetlink-queue - 6.6.56-r1
+kmod-nft-arp - 6.6.56-r1
+kmod-nft-compat - 6.6.56-r1
+kmod-nft-core - 6.6.56-r1
+kmod-nft-fib - 6.6.56-r1
+kmod-nft-nat - 6.6.56-r1
+kmod-nft-offload - 6.6.56-r1
+kmod-nft-queue - 6.6.56-r1
+kmod-nft-socket - 6.6.56-r1
+kmod-nft-tproxy - 6.6.56-r1
+kmod-nls-base - 6.6.56-r1
+kmod-nls-cp437 - 6.6.56-r1
+kmod-nls-iso8859-1 - 6.6.56-r1
+kmod-nls-utf8 - 6.6.56-r1
+kmod-ppp - 6.6.56-r1
+kmod-pppoe - 6.6.56-r1
+kmod-pppox - 6.6.56-r1
+kmod-qcom-qmi-helpers - 6.6.56.6.11.2-r1
+kmod-qrtr - 6.6.56-r1
+kmod-qrtr-mhi - 6.6.56-r1
+kmod-scsi-core - 6.6.56-r1
+kmod-sit - 6.6.56-r1
+kmod-slhc - 6.6.56-r1
+kmod-tcp-bbr - 6.6.56-r1
+kmod-thermal - 6.6.56-r1
+kmod-tun - 6.6.56-r1
+kmod-udptunnel4 - 6.6.56-r1
+kmod-udptunnel6 - 6.6.56-r1
+kmod-usb-core - 6.6.56-r1
+kmod-usb-net - 6.6.56-r1
+kmod-usb-net-cdc-ether - 6.6.56-r1
+kmod-usb-net-cdc-mbim - 6.6.56-r1
+kmod-usb-net-cdc-ncm - 6.6.56-r1
+kmod-usb-net-qmi-wwan - 6.6.56-r1
+kmod-usb-serial - 6.6.56-r1
+kmod-usb-serial-option - 6.6.56-r1
+kmod-usb-serial-wwan - 6.6.56-r1
+kmod-usb-storage - 6.6.56-r1
+kmod-usb-storage-extras - 6.6.56-r1
+kmod-usb-storage-uas - 6.6.56-r1
+kmod-usb-wdm - 6.6.56-r1
+kmod-veth - 6.6.56-r1
+kmod-wireguard - 6.6.56-r1
+libacl - 2.3.2-r2
+libarchive - 3.7.4-r1
+libatomic1 - 13.3.0-r4
+libattr - 2.5.2-r3
+libavahi-client - 0.8-r9
+libavahi-dbus-support - 0.8-r9
+libblkid1 - 2.40.2-r1
+libblobmsg-json20240329 - 2024.03.29~eb9bcb64-r1
+libbpf1 - 1.4.5-r1
+libbz2-1.0 - 1.0.8-r1
+libc - 1.2.5-r4
+libcap - 2.69-r1
+libcap-ng - 0.8.4-r1
+libcares - 1.33.1-r1
+libcomerr0 - 1.47.0-r2
+libcurl4 - 8.10.1-r1
+libdaemon - 0.14-r5
+libdbus - 1.14.10-r1
+libe2p2 - 1.47.0-r2
+libelf1 - 0.191-r1
+libev - 4.33-r2
+libexpat - 2.6.3-r1
+libext2fs2 - 1.47.0-r2
+libf2fs6 - 1.16.0-r3
+libfdisk1 - 2.40.2-r1
+libffi - 3.4.6-r1
+libfuse1 - 2.9.9-r2
+libfuse3-3 - 3.16.2-r1
+libgcc1 - 13.3.0-r4
+libgdbm - 1.23-r1
+libgmp10 - 6.3.0-r1
+libgnutls - 3.8.5-r1
+libgpiod - 2.1.3-r1
+libip4tc2 - 1.8.8-r2
+libip6tc2 - 1.8.8-r2
+libiperf3 - 3.17.1-r3
+libiptext-nft0 - 1.8.8-r2
+libiptext0 - 1.8.8-r2
+libiptext6-0 - 1.8.8-r2
+libiwinfo-data - 2024.10.01~714e4199-r1
+libiwinfo-lua - 2024.10.01~714e4199-r1
+libiwinfo20230701 - 2024.10.01~714e4199-r1
+libjson-c5 - 0.18-r1
+libjson-script20240329 - 2024.03.29~eb9bcb64-r1
+libltdl7 - 2.4.7-r1
+liblua5.1.5 - 5.1.5-r11
+liblua5.3-5.3 - 5.3.5-r6
+liblucihttp-lua - 2023.03.15~9b5b683f-r1
+liblucihttp-ucode - 2023.03.15~9b5b683f-r1
+liblucihttp0 - 2023.03.15~9b5b683f-r1
+liblzma - 5.6.2-r2
+liblzo2 - 2.10-r4
+libmbedtls21 - 3.6.1-r1
+libminiupnpc - 2.2.8-r1
+libmnl0 - 1.0.5-r1
+libmount1 - 2.40.2-r1
+libnatpmp1 - 20230423-r2
+libncurses6 - 6.4-r2
+libnetfilter-conntrack3 - 1.0.9-r2
+libnettle8 - 3.9.1-r1
+libnfnetlink0 - 1.0.2-r1
+libnftnl11 - 1.2.6-r1
+libnghttp2-14 - 1.63.0-r1
+libnl-tiny1 - 2023.12.05~965c4bf4-r1
+libopenldap - 2.6.8-r2
+libopenssl-conf - 3.0.15-r1
+libopenssl-legacy - 3.0.15-r1
+libopenssl3 - 3.0.15-r1
+libpcre2 - 10.42-r1
+libpopt0 - 1.19-r1
+libpthread - 1.2.5-r4
+libpython3-3.11 - 3.11.7-r2
+libqrencode - 4.1.1-r1
+libreadline8 - 8.2-r2
+librrd1 - 1.0.50-r6
+librt - 1.2.5-r4
+libsasl2 - 2.1.28-r3
+libseccomp - 2.5.4-r2
+libsmartcols1 - 2.40.2-r1
+libsodium - 1.0.19-r1
+libsqlite3-0 - 3460100-r1
+libss2 - 1.47.0-r2
+libssh2-1 - 1.11.0-r1
+libstdcpp6 - 13.3.0-r4
+libtasn1 - 4.19.0-r2
+libtirpc - 1.3.4-r1
+libubox20240329 - 2024.03.29~eb9bcb64-r1
+libubus-lua - 2023.11.28~f84eb599-r1
+libubus20231128 - 2023.11.28~f84eb599-r1
+libuci-lua - 2023.08.10~5781664d-r1
+libuci20130104 - 2023.08.10~5781664d-r1
+libuclient20201210 - 2024.04.19~e8780fa7-r1
+libucode20230711 - 2024.07.22~b610860d-r3
+libudebug - 2023.12.06~6d3f51f9
+libudns - 0.4-r1
+liburing - 2.7-r1
+libusb-1.0-0 - 1.0.27-r1
+libustream-openssl20201210 - 2024.07.28~99bd3d2b-r1
+libuuid1 - 2.40.2-r1
+libxtables12 - 1.8.8-r2
+logd - 2024.04.26~85f10530-r1
+lua - 5.1.5-r11
+luci - 24.287.21372~143be0f
+luci-app-arpbind - 1-3
+luci-app-firewall - 24.287.21372~143be0f
+luci-app-opkg - 24.287.21372~143be0f
+luci-app-smartdns - 1.2024.45-1
+luci-app-statistics - 24.287.21372~143be0f
+luci-app-upnp - 24.287.21372~143be0f
+luci-base - 24.287.21372~143be0f
+luci-compat - 24.287.21372~143be0f
+luci-lib-base - 24.287.21372~143be0f
+luci-lib-ip - 24.287.21372~143be0f
+luci-lib-jsonc - 24.287.21372~143be0f
+luci-lib-nixio - 24.287.21372~143be0f
+luci-lib-uqr - 24.287.21372~143be0f
+luci-light - 24.287.21372~143be0f
+luci-lua-runtime - 24.287.21372~143be0f
+luci-mod-admin-full - 24.287.21372~143be0f
+luci-mod-network - 24.287.21372~143be0f
+luci-mod-status - 24.287.21372~143be0f
+luci-mod-system - 24.287.21372~143be0f
+luci-nginx - 24.287.21372~143be0f
+luci-proto-ipv6 - 24.287.21372~143be0f
+luci-proto-ppp - 24.287.21372~143be0f
+luci-proto-wireguard - 24.287.21372~143be0f
+luci-theme-bootstrap - 24.287.21372~143be0f
+luci-theme-material - 24.287.21372~143be0f
+miniupnpd-nftables - 2.3.7-r1
+mkf2fs - 1.16.0-r3
+mount-utils - 2.40.2-r1
+mtd - 26
+netcat - 0.7.1-r2
+netifd - 2024.10.06~3c6265fd-r1
+nftables-json - 1.0.9-r1
+nginx - 1.26.1-r1
+nginx-mod-luci - 1.26.1-r1
+nginx-mod-ubus - 1.26.1-r1
+nginx-ssl - 1.26.1-r1
+nginx-ssl-util - 1.7-r1
+nginx-util - 1.7-r1
+ntfs3-mount - 10
+odhcp6c - 2023.05.12~bcd28363-r20
+odhcpd-ipv6only - 2024.05.08~a2988231-r2
+openssl-util - 3.0.15-r1
+openwrt-keyring - 2021.11.13~07d34f5c-r2
+opkg - 2022.02.24~d038e5b6-r2
+partx-utils - 2.40.2-r1
+pdnsd-alt - 1.2.9b-par-r3
+ppp - 2.5.1-r1
+ppp-mod-pppoe - 2.5.1-r1
+procd - 2024.07.07~f230c117-r1
+procd-seccomp - 2024.07.07~f230c117-r1
+procd-ujail - 2024.07.07~f230c117-r1
+python3 - 3.11.7-r2
+python3-asyncio - 3.11.7-r2
+python3-base - 3.11.7-r2
+python3-cffi - 1.16.0-r1
+python3-cgi - 3.11.7-r2
+python3-cgitb - 3.11.7-r2
+python3-codecs - 3.11.7-r2
+python3-cryptodome - 3.18.0-r1
+python3-ctypes - 3.11.7-r2
+python3-dbm - 3.11.7-r2
+python3-decimal - 3.11.7-r2
+python3-distutils - 3.11.7-r2
+python3-dns - 2.4.1-r1
+python3-email - 3.11.7-r2
+python3-light - 3.11.7-r2
+python3-logging - 3.11.7-r2
+python3-lzma - 3.11.7-r2
+python3-markdown - 3.4.4-r1
+python3-multiprocessing - 3.11.7-r2
+python3-ncurses - 3.11.7-r2
+python3-openssl - 3.11.7-r2
+python3-pkg-resources - 69.0.2-r1
+python3-ply - 3.11-r2
+python3-pycparser - 2.21-r2
+python3-pydoc - 3.11.7-r2
+python3-readline - 3.11.7-r2
+python3-sqlite3 - 3.11.7-r2
+python3-unittest=y
+python3-urllib=y
+python3-uuid=y
+python3-xml=y
+qrencode=y
+rclone=y
+rclone-config=y
+rclone-ng=y
+resolveip=y
+rpcd=y
+rpcd-mod-file=y
+rpcd-mod-iwinfo=y
+rpcd-mod-luci=y
+rpcd-mod-rrdns=y
+rpcd-mod-ucode=y
+rrdtool1=y
+rsync=y
+rsyncd=y
+runc=y
+samba4-admin=y
+samba4-client=y
+samba4-libs=y
+samba4-server=y
+samba4-utils=y
+shellsync=y
+smartdns=y
+tailscale=y
+terminfo=y
+tini=y
+uboot-envtools=y
+ubox=y
+ubus=y
+ubusd=y
+uci=y
+uclient-fetch=y
+ucode=y
+ucode-mod-fs=y
+ucode-mod-html=y
+ucode-mod-lua=y
+ucode-mod-math=y
+ucode-mod-nl80211=y
+ucode-mod-rtnl=y
+ucode-mod-ubus=y
+ucode-mod-uci=y
+ucode-mod-uloop=y
+uhttpd=y
+uhttpd-mod-ubus=y
+unzip=y
+uqmi=y
+urandom-seed=y
+urngd=y
+usign=y
+uwsgi=y
+uwsgi-cgi-plugin=y
+uwsgi-luci-support=y
+uwsgi-syslog-plugin=y
+v2ray-geoip=y
+v2ray-geosite=y
+wget-ssl=y
+wifi-scripts=y
+wireguard-tools=y
+wireless-regdb=y
+wpad-openssl=y
+wsdd2=y
+wwan=y
+xtables=y
+zerotier=y
+zlib=y
