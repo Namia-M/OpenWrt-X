@@ -69,117 +69,117 @@ kmod-ath=y
 kmod-ath10k-sdio=y
 kmod-ath11k=y
 kmod-ath11k-pci=y
-kmod-br-netfilter - 6.6.56-r1
-kmod-cfg80211 - 6.6.56.6.11.2-r1
-kmod-crypto-acompress - 6.6.56-r1
-kmod-crypto-aead - 6.6.56-r1
-kmod-crypto-arc4 - 6.6.56-r1
-kmod-crypto-authenc - 6.6.56-r1
-kmod-crypto-blake2b - 6.6.56-r1
-kmod-crypto-ccm - 6.6.56-r1
-kmod-crypto-cmac - 6.6.56-r1
-kmod-crypto-crc32c - 6.6.56-r1
-kmod-crypto-ctr - 6.6.56-r1
-kmod-crypto-ecb - 6.6.56-r1
-kmod-crypto-gcm - 6.6.56-r1
-kmod-crypto-geniv - 6.6.56-r1
-kmod-crypto-gf128 - 6.6.56-r1
-kmod-crypto-ghash - 6.6.56-r1
-kmod-crypto-hash - 6.6.56-r1
-kmod-crypto-hmac - 6.6.56-r1
-kmod-crypto-kpp - 6.6.56-r1
-kmod-crypto-lib-chacha20 - 6.6.56-r1
-kmod-crypto-lib-chacha20poly1305 - 6.6.56-r1
-kmod-crypto-lib-curve25519 - 6.6.56-r1
-kmod-crypto-lib-poly1305 - 6.6.56-r1
-kmod-crypto-manager - 6.6.56-r1
-kmod-crypto-michael-mic - 6.6.56-r1
-kmod-crypto-null - 6.6.56-r1
-kmod-crypto-rng - 6.6.56-r1
-kmod-crypto-seqiv - 6.6.56-r1
-kmod-crypto-sha1 - 6.6.56-r1
-kmod-crypto-sha3 - 6.6.56-r1
-kmod-crypto-sha512 - 6.6.56-r1
-kmod-crypto-user - 6.6.56-r1
-kmod-crypto-xxhash - 6.6.56-r1
-kmod-cryptodev - 6.6.56.1.13-r1
-kmod-dummy - 6.6.56-r1
-kmod-ebtables - 6.6.56-r1
-kmod-ebtables-ipv4 - 6.6.56-r1
-kmod-ebtables-ipv6 - 6.6.56-r1
-kmod-fs-btrfs - 6.6.56-r1
-kmod-fs-exfat - 6.6.56-r1
-kmod-fs-ext4 - 6.6.56-r1
-kmod-fs-ntfs3 - 6.6.56-r1
-kmod-fs-vfat - 6.6.56-r1
-kmod-fuse - 6.6.56-r1
-kmod-gpio-button-hotplug - 6.6.56-r5
-kmod-hwmon-core - 6.6.56-r1
-kmod-inet-diag - 6.6.56-r1
-kmod-ip6tables - 6.6.56-r1
-kmod-ip6tables-extra - 6.6.56-r1
-kmod-ipt-compat-xtables - 6.6.56.3.26-r1
-kmod-ipt-conntrack - 6.6.56-r1
-kmod-ipt-conntrack-extra - 6.6.56-r1
-kmod-ipt-core - 6.6.56-r1
-kmod-ipt-extra - 6.6.56-r1
-kmod-ipt-filter - 6.6.56-r1
-kmod-ipt-fullconenat - 6.6.56.2023.01.01~74c5e6f3-r1
-kmod-ipt-iface - 6.6.56.3.26-r1
-kmod-ipt-ipmark - 6.6.56.3.26-r1
-kmod-ipt-ipp2p - 6.6.56.3.26-r1
-kmod-ipt-iprange - 6.6.56-r1
-kmod-ipt-ipset - 6.6.56-r1
-kmod-ipt-nat - 6.6.56-r1
-kmod-ipt-nat-extra - 6.6.56-r1
-kmod-ipt-nat6 - 6.6.56-r1
-kmod-ipt-nfqueue - 6.6.56-r1
-kmod-ipt-offload - 6.6.56-r1
-kmod-ipt-physdev - 6.6.56-r1
-kmod-ipt-raw - 6.6.56-r1
-kmod-ipt-raw6 - 6.6.56-r1
-kmod-ipt-socket - 6.6.56-r1
-kmod-ipt-tproxy - 6.6.56-r1
-kmod-iptunnel - 6.6.56-r1
-kmod-iptunnel4 - 6.6.56-r1
-kmod-lib-crc-ccitt - 6.6.56-r1
-kmod-lib-crc16 - 6.6.56-r1
-kmod-lib-crc32c - 6.6.56-r1
-kmod-lib-lzo - 6.6.56-r1
-kmod-lib-raid6 - 6.6.56-r1
-kmod-lib-textsearch - 6.6.56-r1
-kmod-lib-xor - 6.6.56-r1
-kmod-lib-xxhash - 6.6.56-r1
-kmod-lib-zlib-deflate - 6.6.56-r1
-kmod-lib-zlib-inflate - 6.6.56-r1
-kmod-lib-zstd - 6.6.56-r1
-kmod-mac80211 - 6.6.56.6.11.2-r1
-kmod-macvlan - 6.6.56-r1
-kmod-mhi-bus - 6.6.56-r1
-kmod-mii - 6.6.56-r1
-kmod-mmc - 6.6.56-r1
-kmod-mppe - 6.6.56-r1
-kmod-mt76-connac - 6.6.56.2024.10.11.1~ecca0e77-r1
-kmod-mt76-core - 6.6.56.2024.10.11.1~ecca0e77-r1
-kmod-mt7921-common - 6.6.56.2024.10.11.1~ecca0e77-r1
-kmod-mt7921-firmware - 6.6.56.2024.10.11.1~ecca0e77-r1
-kmod-mt7921e - 6.6.56.2024.10.11.1~ecca0e77-r1
-kmod-mt7922-firmware - 6.6.56.2024.10.11.1~ecca0e77-r1
-kmod-mt792x-common - 6.6.56.2024.10.11.1~ecca0e77-r1
-kmod-netlink-diag - 6.6.56-r1
-kmod-nf-conncount - 6.6.56-r1
-kmod-nf-conntrack - 6.6.56-r1
-kmod-nf-conntrack-netlink - 6.6.56-r1
-kmod-nf-conntrack6 - 6.6.56-r1
-kmod-nf-flow - 6.6.56-r1
-kmod-nf-ipt - 6.6.56-r1
-kmod-nf-ipt6 - 6.6.56-r1
-kmod-nf-ipvs - 6.6.56-r1
-kmod-nf-log - 6.6.56-r1
-kmod-nf-log6 - 6.6.56-r1
-kmod-nf-nat - 6.6.56-r1
-kmod-nf-nat6 - 6.6.56-r1
-kmod-nf-nathelper - 6.6.56-r1
+kmod-br-netfilter=y
+kmod-cfg80211=y
+kmod-crypto-acompress=y
+kmod-crypto-aead=y
+kmod-crypto-arc4=y
+kmod-crypto-authenc=y
+kmod-crypto-blake2b=y
+kmod-crypto-ccm=y
+kmod-crypto-cmac=y
+kmod-crypto-crc32c=y
+kmod-crypto-ctr=y
+kmod-crypto-ecb=y
+kmod-crypto-gcm=y
+kmod-crypto-geniv=y
+kmod-crypto-gf128=y
+kmod-crypto-ghash=y
+kmod-crypto-hash=y
+kmod-crypto-hmac=y
+kmod-crypto-kpp=y
+kmod-crypto-lib-chacha20=y
+kmod-crypto-lib-chacha20poly1305=y
+kmod-crypto-lib-curve25519=y
+kmod-crypto-lib-poly1305=y
+kmod-crypto-manager=y
+kmod-crypto-michael-mic=y
+kmod-crypto-null=y
+kmod-crypto-rng=y
+kmod-crypto-seqiv=y
+kmod-crypto-sha1=y
+kmod-crypto-sha3=y
+kmod-crypto-sha512=y
+kmod-crypto-user=y
+kmod-crypto-xxhash=y
+kmod-cryptodev=y
+kmod-dummy=y
+kmod-ebtables=y
+kmod-ebtables-ipv4=y
+kmod-ebtables-ipv6=y
+kmod-fs-btrfs=y
+kmod-fs-exfat=y
+kmod-fs-ext4=y
+kmod-fs-ntfs3=y
+kmod-fs-vfat=y
+kmod-fuse=y
+kmod-gpio-button-hotplug=y
+kmod-hwmon-core=y
+kmod-inet-diag=y
+kmod-ip6tables=y
+kmod-ip6tables-extra=y
+kmod-ipt-compat-xtables=y
+kmod-ipt-conntrack=y
+kmod-ipt-conntrack-extra=y
+kmod-ipt-core=y
+kmod-ipt-extra=y
+kmod-ipt-filter=y
+kmod-ipt-fullconenat=y
+kmod-ipt-iface=y
+kmod-ipt-ipmark=y
+kmod-ipt-ipp2p=y
+kmod-ipt-iprange=y
+kmod-ipt-ipset=y
+kmod-ipt-nat=y
+kmod-ipt-nat-extra=y
+kmod-ipt-nat6=y
+kmod-ipt-nfqueue=y
+kmod-ipt-offload=y
+kmod-ipt-physdev=y
+kmod-ipt-raw=y
+kmod-ipt-raw6=y
+kmod-ipt-socket=y
+kmod-ipt-tproxy=y
+kmod-iptunnel=y
+kmod-iptunnel4=y
+kmod-lib-crc-ccitt=y
+kmod-lib-crc16=y
+kmod-lib-crc32c=y
+kmod-lib-lzo=y
+kmod-lib-raid6=y
+kmod-lib-textsearch=y
+kmod-lib-xor=y
+kmod-lib-xxhash=y
+kmod-lib-zlib-deflate=y
+kmod-lib-zlib-inflate=y
+kmod-lib-zstd=y
+kmod-mac80211=y
+kmod-macvlan=y
+kmod-mhi-bus=y
+kmod-mii=y
+kmod-mmc=y
+kmod-mppe=y
+kmod-mt76-connac=y
+kmod-mt76-core=y
+kmod-mt7921-common=y
+kmod-mt7921-firmware=y
+kmod-mt7921e=y
+kmod-mt7922-firmware=y
+kmod-mt792x-common=y
+kmod-netlink-diag=y
+kmod-nf-conncount=y
+kmod-nf-conntrack=y
+kmod-nf-conntrack-netlink=y
+kmod-nf-conntrack6=y
+kmod-nf-flow=y
+kmod-nf-ipt=y
+kmod-nf-ipt6=y
+kmod-nf-ipvs=y
+kmod-nf-log=y
+kmod-nf-log6=y
+kmod-nf-nat=y
+kmod-nf-nat6=y
+kmod-nf-nathelper=y
 kmod-nf-nathelper-extra - 6.6.56-r1
 kmod-nf-reject - 6.6.56-r1
 kmod-nf-reject6 - 6.6.56-r1
