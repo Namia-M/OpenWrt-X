@@ -197,219 +197,219 @@ kmod-nft-queue=y
 kmod-nft-socket=y
 kmod-nft-tproxy=y
 kmod-nls-base=y
-kmod-nls-cp437 - 6.6.56-r1
-kmod-nls-iso8859-1 - 6.6.56-r1
-kmod-nls-utf8 - 6.6.56-r1
-kmod-ppp - 6.6.56-r1
-kmod-pppoe - 6.6.56-r1
-kmod-pppox - 6.6.56-r1
-kmod-qcom-qmi-helpers - 6.6.56.6.11.2-r1
-kmod-qrtr - 6.6.56-r1
-kmod-qrtr-mhi - 6.6.56-r1
-kmod-scsi-core - 6.6.56-r1
-kmod-sit - 6.6.56-r1
-kmod-slhc - 6.6.56-r1
-kmod-tcp-bbr - 6.6.56-r1
-kmod-thermal - 6.6.56-r1
-kmod-tun - 6.6.56-r1
-kmod-udptunnel4 - 6.6.56-r1
-kmod-udptunnel6 - 6.6.56-r1
-kmod-usb-core - 6.6.56-r1
-kmod-usb-net - 6.6.56-r1
-kmod-usb-net-cdc-ether - 6.6.56-r1
-kmod-usb-net-cdc-mbim - 6.6.56-r1
-kmod-usb-net-cdc-ncm - 6.6.56-r1
-kmod-usb-net-qmi-wwan - 6.6.56-r1
-kmod-usb-serial - 6.6.56-r1
-kmod-usb-serial-option - 6.6.56-r1
-kmod-usb-serial-wwan - 6.6.56-r1
-kmod-usb-storage - 6.6.56-r1
-kmod-usb-storage-extras - 6.6.56-r1
-kmod-usb-storage-uas - 6.6.56-r1
-kmod-usb-wdm - 6.6.56-r1
-kmod-veth - 6.6.56-r1
-kmod-wireguard - 6.6.56-r1
-libacl - 2.3.2-r2
-libarchive - 3.7.4-r1
-libatomic1 - 13.3.0-r4
-libattr - 2.5.2-r3
-libavahi-client - 0.8-r9
-libavahi-dbus-support - 0.8-r9
-libblkid1 - 2.40.2-r1
-libblobmsg-json20240329 - 2024.03.29~eb9bcb64-r1
-libbpf1 - 1.4.5-r1
-libbz2-1.0 - 1.0.8-r1
-libc - 1.2.5-r4
-libcap - 2.69-r1
-libcap-ng - 0.8.4-r1
-libcares - 1.33.1-r1
-libcomerr0 - 1.47.0-r2
-libcurl4 - 8.10.1-r1
-libdaemon - 0.14-r5
-libdbus - 1.14.10-r1
-libe2p2 - 1.47.0-r2
-libelf1 - 0.191-r1
-libev - 4.33-r2
-libexpat - 2.6.3-r1
-libext2fs2 - 1.47.0-r2
-libf2fs6 - 1.16.0-r3
-libfdisk1 - 2.40.2-r1
-libffi - 3.4.6-r1
-libfuse1 - 2.9.9-r2
-libfuse3-3 - 3.16.2-r1
-libgcc1 - 13.3.0-r4
-libgdbm - 1.23-r1
-libgmp10 - 6.3.0-r1
-libgnutls - 3.8.5-r1
-libgpiod - 2.1.3-r1
-libip4tc2 - 1.8.8-r2
-libip6tc2 - 1.8.8-r2
-libiperf3 - 3.17.1-r3
-libiptext-nft0 - 1.8.8-r2
-libiptext0 - 1.8.8-r2
-libiptext6-0 - 1.8.8-r2
-libiwinfo-data - 2024.10.01~714e4199-r1
-libiwinfo-lua - 2024.10.01~714e4199-r1
-libiwinfo20230701 - 2024.10.01~714e4199-r1
-libjson-c5 - 0.18-r1
-libjson-script20240329 - 2024.03.29~eb9bcb64-r1
-libltdl7 - 2.4.7-r1
-liblua5.1.5 - 5.1.5-r11
-liblua5.3-5.3 - 5.3.5-r6
-liblucihttp-lua - 2023.03.15~9b5b683f-r1
-liblucihttp-ucode - 2023.03.15~9b5b683f-r1
-liblucihttp0 - 2023.03.15~9b5b683f-r1
-liblzma - 5.6.2-r2
-liblzo2 - 2.10-r4
-libmbedtls21 - 3.6.1-r1
-libminiupnpc - 2.2.8-r1
-libmnl0 - 1.0.5-r1
-libmount1 - 2.40.2-r1
-libnatpmp1 - 20230423-r2
-libncurses6 - 6.4-r2
-libnetfilter-conntrack3 - 1.0.9-r2
-libnettle8 - 3.9.1-r1
-libnfnetlink0 - 1.0.2-r1
-libnftnl11 - 1.2.6-r1
-libnghttp2-14 - 1.63.0-r1
-libnl-tiny1 - 2023.12.05~965c4bf4-r1
-libopenldap - 2.6.8-r2
-libopenssl-conf - 3.0.15-r1
-libopenssl-legacy - 3.0.15-r1
-libopenssl3 - 3.0.15-r1
-libpcre2 - 10.42-r1
-libpopt0 - 1.19-r1
-libpthread - 1.2.5-r4
-libpython3-3.11 - 3.11.7-r2
-libqrencode - 4.1.1-r1
-libreadline8 - 8.2-r2
-librrd1 - 1.0.50-r6
-librt - 1.2.5-r4
-libsasl2 - 2.1.28-r3
-libseccomp - 2.5.4-r2
-libsmartcols1 - 2.40.2-r1
-libsodium - 1.0.19-r1
-libsqlite3-0 - 3460100-r1
-libss2 - 1.47.0-r2
-libssh2-1 - 1.11.0-r1
-libstdcpp6 - 13.3.0-r4
-libtasn1 - 4.19.0-r2
-libtirpc - 1.3.4-r1
-libubox20240329 - 2024.03.29~eb9bcb64-r1
-libubus-lua - 2023.11.28~f84eb599-r1
-libubus20231128 - 2023.11.28~f84eb599-r1
-libuci-lua - 2023.08.10~5781664d-r1
-libuci20130104 - 2023.08.10~5781664d-r1
-libuclient20201210 - 2024.04.19~e8780fa7-r1
-libucode20230711 - 2024.07.22~b610860d-r3
-libudebug - 2023.12.06~6d3f51f9
-libudns - 0.4-r1
-liburing - 2.7-r1
-libusb-1.0-0 - 1.0.27-r1
-libustream-openssl20201210 - 2024.07.28~99bd3d2b-r1
-libuuid1 - 2.40.2-r1
-libxtables12 - 1.8.8-r2
-logd - 2024.04.26~85f10530-r1
-lua - 5.1.5-r11
-luci - 24.287.21372~143be0f
-luci-app-arpbind - 1-3
-luci-app-firewall - 24.287.21372~143be0f
-luci-app-opkg - 24.287.21372~143be0f
-luci-app-smartdns - 1.2024.45-1
-luci-app-statistics - 24.287.21372~143be0f
-luci-app-upnp - 24.287.21372~143be0f
-luci-base - 24.287.21372~143be0f
-luci-compat - 24.287.21372~143be0f
-luci-lib-base - 24.287.21372~143be0f
-luci-lib-ip - 24.287.21372~143be0f
-luci-lib-jsonc - 24.287.21372~143be0f
-luci-lib-nixio - 24.287.21372~143be0f
-luci-lib-uqr - 24.287.21372~143be0f
-luci-light - 24.287.21372~143be0f
-luci-lua-runtime - 24.287.21372~143be0f
-luci-mod-admin-full - 24.287.21372~143be0f
-luci-mod-network - 24.287.21372~143be0f
-luci-mod-status - 24.287.21372~143be0f
-luci-mod-system - 24.287.21372~143be0f
-luci-nginx - 24.287.21372~143be0f
-luci-proto-ipv6 - 24.287.21372~143be0f
-luci-proto-ppp - 24.287.21372~143be0f
-luci-proto-wireguard - 24.287.21372~143be0f
-luci-theme-bootstrap - 24.287.21372~143be0f
-luci-theme-material - 24.287.21372~143be0f
-miniupnpd-nftables - 2.3.7-r1
-mkf2fs - 1.16.0-r3
-mount-utils - 2.40.2-r1
-mtd - 26
-netcat - 0.7.1-r2
-netifd - 2024.10.06~3c6265fd-r1
-nftables-json - 1.0.9-r1
-nginx - 1.26.1-r1
-nginx-mod-luci - 1.26.1-r1
-nginx-mod-ubus - 1.26.1-r1
-nginx-ssl - 1.26.1-r1
-nginx-ssl-util - 1.7-r1
-nginx-util - 1.7-r1
-ntfs3-mount - 10
-odhcp6c - 2023.05.12~bcd28363-r20
-odhcpd-ipv6only - 2024.05.08~a2988231-r2
-openssl-util - 3.0.15-r1
-openwrt-keyring - 2021.11.13~07d34f5c-r2
-opkg - 2022.02.24~d038e5b6-r2
-partx-utils - 2.40.2-r1
-pdnsd-alt - 1.2.9b-par-r3
-ppp - 2.5.1-r1
-ppp-mod-pppoe - 2.5.1-r1
-procd - 2024.07.07~f230c117-r1
-procd-seccomp - 2024.07.07~f230c117-r1
-procd-ujail - 2024.07.07~f230c117-r1
-python3 - 3.11.7-r2
-python3-asyncio - 3.11.7-r2
-python3-base - 3.11.7-r2
-python3-cffi - 1.16.0-r1
-python3-cgi - 3.11.7-r2
-python3-cgitb - 3.11.7-r2
-python3-codecs - 3.11.7-r2
-python3-cryptodome - 3.18.0-r1
-python3-ctypes - 3.11.7-r2
-python3-dbm - 3.11.7-r2
-python3-decimal - 3.11.7-r2
-python3-distutils - 3.11.7-r2
-python3-dns - 2.4.1-r1
-python3-email - 3.11.7-r2
-python3-light - 3.11.7-r2
-python3-logging - 3.11.7-r2
-python3-lzma - 3.11.7-r2
-python3-markdown - 3.4.4-r1
-python3-multiprocessing - 3.11.7-r2
-python3-ncurses - 3.11.7-r2
-python3-openssl - 3.11.7-r2
-python3-pkg-resources - 69.0.2-r1
-python3-ply - 3.11-r2
-python3-pycparser - 2.21-r2
-python3-pydoc - 3.11.7-r2
-python3-readline - 3.11.7-r2
-python3-sqlite3 - 3.11.7-r2
+kmod-nls-cp437=y
+kmod-nls-iso8859-1=y
+kmod-nls-utf8=y
+kmod-ppp=y
+kmod-pppoe=y
+kmod-pppox=y
+kmod-qcom-qmi-helpers=y
+kmod-qrtr=y
+kmod-qrtr-mhi=y
+kmod-scsi-core=y
+kmod-sit=y
+kmod-slhc=y
+kmod-tcp-bbr=y
+kmod-thermal=y
+kmod-tun=y
+kmod-udptunnel4=y
+kmod-udptunnel6=y
+kmod-usb-core=y
+kmod-usb-net=y
+kmod-usb-net-cdc-ether=y
+kmod-usb-net-cdc-mbim=y
+kmod-usb-net-cdc-ncm=y
+kmod-usb-net-qmi-wwan=y
+kmod-usb-serial=y
+kmod-usb-serial-option=y
+kmod-usb-serial-wwan=y
+kmod-usb-storage=y
+kmod-usb-storage-extras=y
+kmod-usb-storage-uas=y
+kmod-usb-wdm=y
+kmod-veth=y
+kmod-wireguard=y
+libacl=y
+libarchive=y
+libatomic1=y
+libattr=y
+libavahi-client=y
+libavahi-dbus-support=y
+libblkid1=y
+libblobmsg-json20240329=y
+libbpf1=y
+libbz2-1.0=y
+libc=y
+libcap=y
+libcap-ng=y
+libcares=y
+libcomerr0=y
+libcurl4=y
+libdaemon=y
+libdbus=y
+libe2p2=y
+libelf1=y
+libev=y
+libexpat=y
+libext2fs2=y
+libf2fs6=y
+libfdisk1=y
+libffi=y
+libfuse1=y
+libfuse3-3=y
+libgcc1=y
+libgdbm=y
+libgmp10=y
+libgnutls=y
+libgpiod=y
+libip4tc2=y
+libip6tc2=y
+libiperf3=y
+libiptext-nft0=y
+libiptext0=y
+libiptext6-0=y
+libiwinfo-data=y
+libiwinfo-lua=y
+libiwinfo20230701=y
+libjson-c5=y
+libjson-script20240329=y
+libltdl7=y
+liblua5.1.5=y
+liblua5.3-5.3=y
+liblucihttp-lua=y
+liblucihttp-ucode=y
+liblucihttp0=y
+liblzma=y
+liblzo2=y
+libmbedtls21=y
+libminiupnpc=y
+libmnl0=y
+libmount1=y
+libnatpmp1=y
+libncurses6=y
+libnetfilter-conntrack3=y
+libnettle8=y
+libnfnetlink0=y
+libnftnl11=y
+libnghttp2-14=y
+libnl-tiny1=y
+libopenldap=y
+libopenssl-conf=y
+libopenssl-legacy=y
+libopenssl3=y
+libpcre2=y
+libpopt0=y
+libpthread=y
+libpython3-3.11=y
+libqrencode=y
+libreadline8=y
+librrd1=y
+librt=y
+libsasl2=y
+libseccomp=y
+libsmartcols1=y
+libsodium=y
+libsqlite3-0=y
+libss2=y
+libssh2-1=y
+libstdcpp6=y
+libtasn1=y
+libtirpc=y
+libubox20240329=y
+libubus-lua=y
+libubus20231128=y
+libuci-lua=y
+libuci20130104=y
+libuclient20201210=y
+libucode20230711=y
+libudebug=y
+libudns=y
+liburing=y
+libusb-1.0-0=y
+libustream-openssl20201210=y
+libuuid1=y
+libxtables12=y
+logd=y
+lua=y
+luci=y
+luci-app-arpbind=y
+luci-app-firewall=y
+luci-app-opkg=y
+luci-app-smartdns=y
+luci-app-statistics=y
+luci-app-upnp=y
+luci-base=y
+luci-compat=y
+luci-lib-base=y
+luci-lib-ip=y
+luci-lib-jsonc=y
+luci-lib-nixio=y
+luci-lib-uqr=y
+luci-light=y
+luci-lua-runtime=y
+luci-mod-admin-full=y
+luci-mod-network=y
+luci-mod-status=y
+luci-mod-system=y
+luci-nginx=y
+luci-proto-ipv6=y
+luci-proto-ppp=y
+luci-proto-wireguard=y
+luci-theme-bootstrap=y
+luci-theme-material=y
+miniupnpd-nftables=y
+mkf2fs=y
+mount-utils=y
+mtd=y
+netcat=y
+netifd=y
+nftables-json=y
+nginx=y
+nginx-mod-luci=y
+nginx-mod-ubus=y
+nginx-ssl=y
+nginx-ssl-util=y
+nginx-util=y
+ntfs3-mount=y
+odhcp6c=y
+odhcpd-ipv6only=y
+openssl-util=y
+openwrt-keyring=y
+opkg=y
+partx-utils=y
+pdnsd-alt=y
+ppp=y
+ppp-mod-pppoe=y
+procd=y
+procd-seccomp=y
+procd-ujail=y
+python3=y
+python3-asyncio=y
+python3-base=y
+python3-cffi=y
+python3-cgi=y
+python3-cgitb=y
+python3-codecs=y
+python3-cryptodome=y
+python3-ctypes=y
+python3-dbm=y
+python3-decimal=y
+python3-distutils=y
+python3-dns=y
+python3-email=y
+python3-light=y
+python3-logging=y
+python3-lzma=y
+python3-markdown=y
+python3-multiprocessing=y
+python3-ncurses=y
+python3-openssl=y
+python3-pkg-resources=y
+python3-ply=y
+python3-pycparser=y
+python3-pydoc=y
+python3-readline=y
+python3-sqlite3=y
 python3-unittest=y
 python3-urllib=y
 python3-uuid=y
