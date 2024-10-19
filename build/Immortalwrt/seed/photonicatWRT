@@ -46,23 +46,23 @@ fuse-utils=y
 fuse3-utils=y
 fwtool=y
 getrandom=y
-glib2 - 2.82.0-r1
-haproxy - 3.0.5-r1
-hostapd-common - 2024.09.15~5ace39b0-r1
-htop - 3.3.0-r2
-ip-full - 6.11.0-r1
-iperf - 2.1.9-r1
-iperf3 - 3.17.1-r3
-iptables-mod-conntrack-extra - 1.8.8-r2
-iptables-mod-extra - 1.8.8-r2
-iptables-mod-fullconenat - 2023.01.01~74c5e6f3-r1
-iptables-nft - 1.8.8-r2
-iw - 6.9-r1
-iwinfo - 2024.10.01~714e4199-r1
-jansson4 - 2.14-r3
-jq - 1.7.1-r1
-jshn - 2024.03.29~eb9bcb64-r1
-jsonfilter - 2024.01.23~594cfa86-r1
+glib2=y
+haproxy=y
+hostapd-common=y
+htop=y
+ip-full=y
+iperf=y
+iperf3=y
+iptables-mod-conntrack-extra=y
+iptables-mod-extra=y
+iptables-mod-fullconenat=y
+iptables-nft=y
+iw=y
+iwinfo=y
+jansson4=y
+jq=y
+jshn=y
+jsonfilter=y
 kernel - 6.6.56~f182311049b04e17f02f6a22bf0c582c-r1
 kmod-asn1-decoder - 6.6.56-r1
 kmod-ath - 6.6.56.6.11.2-r1
