@@ -22,19 +22,19 @@ collectd=y
 collectd-mod-cpu=y
 collectd-mod-interface=y
 collectd-mod-iwinfo=y
-collectd-mod-load - 5.12.0-r53
-collectd-mod-memory - 5.12.0-r53
-collectd-mod-network - 5.12.0-r53
-collectd-mod-rrdtool - 5.12.0-r53
-containerd - 1.7.22-r1
-coreutils - 9.3-r1
-coreutils-base64 - 9.3-r1
-coreutils-nohup - 9.3-r1
-curl - 8.10.1-r1
-dbus - 1.14.10-r1
-ddns-scripts - 2.8.2-r48
-ddns-scripts-services - 2.8.2-r48
-ddns-scripts_aliyun - 1.0.3-r2
+collectd-mod-load=y
+collectd-mod-memory=y
+collectd-mod-network=y
+collectd-mod-rrdtool=y
+containerd=y
+coreutils=y
+coreutils-base64=y
+coreutils-nohup=y
+curl=y
+dbus=y
+ddns-scripts=y
+ddns-scripts-services=y
+ddns-scripts_aliyun=y
 dnsmasq-full - 2.90-r3
 dropbear - 2024.85-r1
 e2fsprogs - 1.47.0-r2
