@@ -280,7 +280,6 @@ CONFIG_boost-static-and-shared-libs=y
 CONFIG_boost-variant-release=y
 
 
-# USB Wireless Card Drivers
 CONFIG_PACKAGE_kmod-ath=y
 CONFIG_PACKAGE_kmod-ath10k=y
 CONFIG_PACKAGE_kmod-ath10k-pci=y
