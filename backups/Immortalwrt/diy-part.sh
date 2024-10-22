@@ -57,7 +57,7 @@ export Password_free_login="1"               # 设置首次登录后台密码为
 
 # 11----------------------------------------------------------------------------------------------------------------------------------
 # 增加AdGuardHome插件和核心
-export AdGuardHome_Core="0"                  # 编译固件时自动增加AdGuardHome插件和AdGuardHome插件核心,需要注意的是一个核心20多MB的,小闪存机子搞不来(1为启用命令,填0为不作修改)
+export AdGuardHome_Core="1"                  # 编译固件时自动增加AdGuardHome插件和AdGuardHome插件核心,需要注意的是一个核心20多MB的,小闪存机子搞不来(1为启用命令,填0为不作修改)
 
 # 12----------------------------------------------------------------------------------------------------------------------------------
 # 禁用ssrplus和passwall的NaiveProxy
@@ -88,18 +88,17 @@ export kernel_usage="stable"
 
 # 17----------------------------------------------------------------------------------------------------------------------------------
 # 修改插件名字
-#sed -i 's/"aMule设置"/"电驴下载"/g' `egrep "aMule设置" -rl ./`
-#sed -i 's/"网络存储"/"NAS"/g' `egrep "网络存储" -rl ./`
-#sed -i 's/"Turbo ACC 网络加速"/"网络加速"/g' `egrep "Turbo ACC 网络加速" -rl ./`
-#sed -i 's/"实时流量监测"/"流量"/g' `egrep "实时流量监测" -rl ./`
-#sed -i 's/"KMS 服务器"/"KMS激活"/g' `egrep "KMS 服务器" -rl ./`
-#sed -i 's/"TTYD 终端"/"TTYD"/g' `egrep "TTYD 终端" -rl ./`
-#sed -i 's/"USB 打印服务器"/"打印服务"/g' `egrep "USB 打印服务器" -rl ./`
-#sed -i 's/"Web 管理"/"Web管理"/g' `egrep "Web 管理" -rl ./`
-#sed -i 's/"管理权"/"改密码"/g' `egrep "管理权" -rl ./`
-#sed -i 's/"带宽监控"/"监控"/g' `egrep "带宽监控" -rl ./`
-#sed -i 's/"设置向导"/"向导"/g' `egrep "设置向导" -rl ./`
-#sed -i 's/"TencentDDNS"/"腾讯云DDNS"/g' `egrep "TencentDDNS" -r
+sed -i 's/"终端"/"TTYD"/g' `egrep "终端" -rl ./`
+sed -i 's/"aMule设置"/"电驴下载"/g' `egrep "aMule设置" -rl ./`
+sed -i 's/"网络存储"/"NAS"/g' `egrep "网络存储" -rl ./`
+sed -i 's/"Turbo ACC 网络加速"/"网络加速"/g' `egrep "Turbo ACC 网络加速" -rl ./`
+sed -i 's/"实时流量监测"/"流量"/g' `egrep "实时流量监测" -rl ./`
+sed -i 's/"KMS 服务器"/"KMS激活"/g' `egrep "KMS 服务器" -rl ./`
+sed -i 's/"TTYD 终端"/"TTYD"/g' `egrep "TTYD 终端" -rl ./`
+sed -i 's/"USB 打印服务器"/"打印服务"/g' `egrep "USB 打印服务器" -rl ./`
+sed -i 's/"Web 管理"/"Web管理"/g' `egrep "Web 管理" -rl ./`
+sed -i 's/"管理权"/"改密码"/g' `egrep "管理权" -rl ./`
+sed -i 's/"带宽监控"/"监控"/g' `egrep "带宽监控" -rl ./`
 
 # 18----------------------------------------------------------------------------------------------------------------------------------
 # 整理固件包时候,删除您不想要的固件或者文件,让它不需要上传到Actions空间(根据编译机型变化,自行调整删除名称)
