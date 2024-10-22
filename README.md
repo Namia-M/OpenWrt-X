@@ -208,7 +208,7 @@
 - 开始 ctrl+C 结束 ctrl+D
 - 进ssh选择插件
 - 进入CD命令
--                cd openwrt && make menuconfig
+-     cd openwrt && make menuconfig
   
 6. 编译大概需要1-3小时，一般两个半小时就编译完成，最后后在仓库主页 [Releases](https://github.com/Namia-M/OpenWrt-X/releases) 对应 Tag 标签内下载固件
 <details>
