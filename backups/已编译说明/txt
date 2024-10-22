@@ -7,24 +7,9 @@ SSH里面y是勾选☑️n是取消。空格也是确定但是空格键是内核
 
 现阶段仓库5个源码
 X86_64都可以编译成功，固件都带了自动更新功能
-编译不了的就去6.1选取编译
+编译不了的就选取6.1编译
 
 
 正在测试rk3568光影猫
-现阶段天灵5.1、可以正常编译
-现阶段大雕6.6正在测试天假模块及其驱动
-
-
-
-CONFIG_PACKAGE_luci-theme-atmaterial_new=y
-CONFIG_PACKAGE_luci-theme-edge=y
-CONFIG_PACKAGE_luci-theme-ifit=y
-CONFIG_PACKAGE_luci-theme-infinityfreedom=y暗黑主题
-CONFIG_PACKAGE_luci-theme-material=y
-CONFIG_PACKAGE_luci-theme-mcat=y
-CONFIG_PACKAGE_luci-theme-neobird=y
-CONFIG_PACKAGE_luci-theme-netgear=y
-CONFIG_PACKAGE_luci-theme-rosy=y
-CONFIG_PACKAGE_luci-theme-tomato=y
-
+现阶段大雕，天灵6.6正在测试模块及其驱动，无线等
 
