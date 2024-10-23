@@ -27,7 +27,7 @@
 - 
 - ### 最后就是所有的固件是基于本人有什么设备而去编译的而不是大众化，有啥做的不好的自行谅解！邮箱和T G联系
 
-[![Telegram](https://img.shields.io/badge/-Telegram-181717?style=flat&logo=GitHub&logoColor=white)](https://t.me/RileyK9880)
+[![Telegram](https://img.shields.io/badge/-Telegram-181717?style=flat&logo=Telegram&logoColor=white)](https://t.me/RileyK9880)
 [![Gmail](https://img.shields.io/badge/-Gmail-D14836?style=flat&logo=Gmail&logoColor=white)](mailto:kmy258855@gmail.com)
 
 
